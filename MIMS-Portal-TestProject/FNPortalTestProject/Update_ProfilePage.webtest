@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="Update_ProfilePage" Id="32824911-7aed-44f3-a49d-8393585b1745" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="Update_ProfilePage.a51154fa-c412-4ea8-a33d-ff59bb5504ee.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Comment CommentText="Please enter portal url in the browser" />
+    <Request Method="GET" Guid="aafe24fd-d1a2-4aac-b74c-8f4ce225cb05" Version="1.1" Url="http://mimsngfnuat.microsoftcrmportals.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://mimsngfnuat.microsoftcrmportals.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="ef4def8e-7437-481b-8ab8-1f5a71e7792e" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUIFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3ded7187-e647-4fc5-90a9-2ed4e1eedfee" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-LightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="ccb0b84d-8fe5-4d2e-8f1c-720788c956c2" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemilightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f0e19351-fd2b-4b11-9420-afed2377c794" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemiboldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="993a873e-1e98-4774-9628-6ec3d1f2f882" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-BoldFont.woff" ThinkTime="11" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam32.returnUrl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?returnUrl=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Comment CommentText="Click on log in link in welcome page" />
+    <Request Method="GET" Guid="f7064b2b-5830-4f52-93c2-3c3f8c35dcff" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SignIn" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="b8366b53-c265-4c63-81cc-54b762373f6b" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUIFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="74e8f48c-e7f7-4620-8b7d-af39e008c3aa" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-LightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="2cf19b93-1557-4432-ae07-215ecad17bf0" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemilightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e2db1009-0455-4f64-8c86-7327a670d84a" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemiboldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="7d07d236-0e33-47f6-bbbc-661a36616ea7" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-BoldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="83aab53e-fa26-4c43-a112-f8fadf8c13e8" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="49b1e967-b847-4798-9c2c-da56221a0325" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/_layout/tokenhtml" ThinkTime="13" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+          </Headers>
+          <ExtractionRules>
+            <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam25.__RequestVerificationToken" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+              <RuleParameters>
+                <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+                <RuleParameter Name="EndsWith" Value="&quot; /&gt;" />
+                <RuleParameter Name="Index" Value="0" />
+                <RuleParameter Name="IgnoreCase" Value="False" />
+                <RuleParameter Name="UseRegularExpression" Value="False" />
+                <RuleParameter Name="HtmlDecode" Value="True" />
+                <RuleParameter Name="Required" Value="False" />
+              </RuleParameters>
+            </ExtractionRule>
+          </ExtractionRules>
+          <QueryStringParameters>
+            <QueryStringParameter Name="_" Value="1503090322856" RecordedValue="1503090322856" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam31.ReturnUrl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ReturnUrl=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam24.provider" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value=" id=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&#xD;&#xA;  " />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="returnUrl" Value="%2F" RecordedValue="%2F" CorrelationBinding="{{QueryStringParam32.returnUrl}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="Click on log in button in portal page" />
+    <Request Method="POST" Guid="5e302690-6289-4b0f-bce8-dcad1fe645c5" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/Account/Login/ExternalLogin" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize?client_id=b884db1c-b9bd-447f-9b2d-dc06e79fa77b&amp;redirect_uri=https%3A%2F%2Fmimsngfnuat.microsoftcrmportals.com%2F&amp;response_mode=form_post&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DtJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4&amp;nonce=636386871403607575.MzdiZGJlZGItZjZiYS00MTM4LWJkZTYtYWI0YjhhZmZhNzQ4NWYwZjJhYzAtNDZiMS00NDk1LTk3ZWItZWU2NDZjOGZhMzg5" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/SignIn?returnUrl=%2F" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam45.client-request-id" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?client-request-id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam114.client-request-id" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?client-request-id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam118.wctx" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wctx=" />
+            <RuleParameter Name="EndsWith" Value="'" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam20.response_mode" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;response_mode=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam116.wa" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wa=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam117.wtrealm" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wtrealm=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ReturnUrl" Value="%2F" RecordedValue="%2F" CorrelationBinding="{{QueryStringParam31.ReturnUrl}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{FormPostParam25.__RequestVerificationToken}}" RecordedValue="hFTsIGp1tOxfSCEe7Od1omn-ioKxxOZanyzyXnVTIFj08qPdR3al-b8OxVkNbINtZ4Q5AtHwllB-5x-iObzs-sm5axzT8QlzS5lOEesCbGg1" CorrelationBinding="{{FormPostParam25.__RequestVerificationToken}}" UrlEncode="True" />
+        <FormPostParameter Name="provider" Value="https://login.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/" RecordedValue="https://login.windows.net/72f988bf-86f1-41af-91ab-2d7cd011db47/" CorrelationBinding="{{FormPostParam24.provider}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="1364494a-5d5e-4224-a754-8e5d0878df0b" Version="1.1" Url="https://login.microsoftonline.com/common/login/telemetry" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="*/*" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize?client_id=b884db1c-b9bd-447f-9b2d-dc06e79fa77b&amp;redirect_uri=https%3A%2F%2Fmimsngfnuat.microsoftcrmportals.com%2F&amp;response_mode=form_post&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DtJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4&amp;nonce=636386871403607575.MzdiZGJlZGItZjZiYS00MTM4LWJkZTYtYWI0YjhhZmZhNzQ4NWYwZjJhYzAtNDZiMS00NDk1LTk3ZWItZWU2NDZjOGZhMzg5" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client-request-id" Value="{{QueryStringParam45.client-request-id}}" RecordedValue="e84388ed-afb9-4ad0-bc1d-22425f7feca4" CorrelationBinding="{{QueryStringParam45.client-request-id}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="{&quot;nonce&quot;:&quot;AQABAAEAAAA9kTklhVy7SJTGAzR-p1BcGa7lY7SmfLecPauXbQQtE6jBgwsktgobbutAE3Uyw6K0W8oOjhV6q93KSrP0yeae9ytjQIetoZP5lzDHx-7cHx9nisASW7l7JscW7e2AGhwgAA&quot;,&quot;traces&quot;:[&quot;Initiating cookie pull&quot;,&quot;cookie pull initiated successfully (took 188 ms)&quot;,&quot;Users list cookie detected&quot;,&quot;User list is empty.&quot;],&quot;data&quot;:&quot;msLaunchUri.success.ms" Value="188;ESTSUSERLIST.cookie.ms=448;result=end;&quot;}" RecordedValue="188;ESTSUSERLIST.cookie.ms=448;result=end;&quot;}" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="27eee2f9-5899-4f16-8141-af859a06670f" Version="1.1" Url="https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize?client_id=b884db1c-b9bd-447f-9b2d-dc06e79fa77b&amp;redirect_uri=https%3A%2F%2Fmimsngfnuat.microsoftcrmportals.com%2F&amp;response_mode=form_post&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DtJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4&amp;nonce=636386871403607575.MzdiZGJlZGItZjZiYS00MTM4LWJkZTYtYWI0YjhhZmZhNzQ4NWYwZjJhYzAtNDZiMS00NDk1LTk3ZWItZWU2NDZjOGZhMzg5#" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="b884db1c-b9bd-447f-9b2d-dc06e79fa77b" RecordedValue="b884db1c-b9bd-447f-9b2d-dc06e79fa77b" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="https%3A%2F%2Fmimsngfnuat.microsoftcrmportals.com%2F" RecordedValue="https%3A%2F%2Fmimsngfnuat.microsoftcrmportals.com%2F" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_mode" Value="form_post" RecordedValue="form_post" CorrelationBinding="{{QueryStringParam20.response_mode}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="code%20id_token" RecordedValue="code%20id_token" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="scope" Value="openid%20profile" RecordedValue="openid%20profile" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="state" Value="OpenIdConnect.AuthenticationProperties%3DtJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4" RecordedValue="OpenIdConnect.AuthenticationProperties%3DtJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="nonce" Value="636386871403607575.MzdiZGJlZGItZjZiYS00MTM4LWJkZTYtYWI0YjhhZmZhNzQ4NWYwZjJhYzAtNDZiMS00NDk1LTk3ZWItZWU2NDZjOGZhMzg5" RecordedValue="636386871403607575.MzdiZGJlZGItZjZiYS00MTM4LWJkZTYtYWI0YjhhZmZhNzQ4NWYwZjJhYzAtNDZiMS00NDk1LTk3ZWItZWU2NDZjOGZhMzg5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="61780418-1809-4d56-a21f-dfc5726485b4" Version="1.1" Url="https://login.microsoftonline.com/common/userrealm" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json" />
+        <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+        <Header Name="Referer" Value="https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize?client_id=b884db1c-b9bd-447f-9b2d-dc06e79fa77b&amp;redirect_uri=https%3A%2F%2Fmimsngfnuat.microsoftcrmportals.com%2F&amp;response_mode=form_post&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DtJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4&amp;nonce=636386871403607575.MzdiZGJlZGItZjZiYS00MTM4LWJkZTYtYWI0YjhhZmZhNzQ4NWYwZjJhYzAtNDZiMS00NDk1LTk3ZWItZWU2NDZjOGZhMzg5" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="user" Value="sesd365%40microsoft.com" RecordedValue="sesd365%40microsoft.com" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="api-version" Value="2.1" RecordedValue="2.1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="stsRequest" Value="rQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81" RecordedValue="rQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="checkForMicrosoftAccount" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2285b69e-ede8-475e-b20a-31232f62a5c9" Version="1.1" Url="https://msft.sts.microsoft.com/adfs/ls/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://login.microsoftonline.com/72f988bf-86f1-41af-91ab-2d7cd011db47/oauth2/authorize?client_id=b884db1c-b9bd-447f-9b2d-dc06e79fa77b&amp;redirect_uri=https%3A%2F%2Fmimsngfnuat.microsoftcrmportals.com%2F&amp;response_mode=form_post&amp;response_type=code%20id_token&amp;scope=openid%20profile&amp;state=OpenIdConnect.AuthenticationProperties%3DtJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4&amp;nonce=636386871403607575.MzdiZGJlZGItZjZiYS00MTM4LWJkZTYtYWI0YjhhZmZhNzQ4NWYwZjJhYzAtNDZiMS00NDk1LTk3ZWItZWU2NDZjOGZhMzg5" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam12.client-request-id" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?client-request-id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam16.wctx" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wctx=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam13.username" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;username=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam14.wa" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wa=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam15.wtrealm" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wtrealm=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam17.pullStatus" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;pullStatus=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client-request-id" Value="{{QueryStringParam114.client-request-id}}" RecordedValue="e84388ed-afb9-4ad0-bc1d-22425f7feca4" CorrelationBinding="{{QueryStringParam114.client-request-id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="username" Value="sesd365%40microsoft.com" RecordedValue="sesd365%40microsoft.com" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wa" Value="wsignin1.0" RecordedValue="wsignin1.0" CorrelationBinding="{{QueryStringParam116.wa}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wtrealm" Value="urn%3afederation%3aMicrosoftOnline" RecordedValue="urn%3afederation%3aMicrosoftOnline" CorrelationBinding="{{QueryStringParam117.wtrealm}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wctx" Value="{{QueryStringParam118.wctx}}" RecordedValue="estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81" CorrelationBinding="{{QueryStringParam118.wctx}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="popupui" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="359d09f2-dff5-43aa-b0e3-1eac8ad3ed22" Version="1.1" Url="https://dc.services.visualstudio.com/v2/track" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="c0efbb8c-29ef-48fc-99cd-251ad959b366" Version="1.1" Url="https://dc.services.visualstudio.com/v2/track" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://msft.sts.microsoft.com/adfs/ls/?client-request-id=e84388ed-afb9-4ad0-bc1d-22425f7feca4&amp;username=sesd365%40microsoft.com&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81&amp;popupui=" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">WwB7ACIAdABpAG0AZQAiADoAIgAyADAAMQA3AC0AMAA4AC0AMQA4AFQAMgAxADoAMAA1ADoANAA3AC4ANQA3ADEAWgAiACwAIgBpAEsAZQB5ACIAOgAiAGIANgA5ADgAMgBkADUAZQAtAGQAZQA4ADIALQA0ADIAZgA4AC0AOQA5ADkAMQAtAGEAYgA1AGQANgA3ADYAYgBhADIAMgA5ACIALAAiAG4AYQBtAGUAIgA6ACIATQBpAGMAcgBvAHMAbwBmAHQALgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ASQBuAHMAaQBnAGgAdABzAC4AYgA2ADkAOAAyAGQANQBlAGQAZQA4ADIANAAyAGYAOAA5ADkAOQAxAGEAYgA1AGQANgA3ADYAYgBhADIAMgA5AC4AUABhAGcAZQB2AGkAZQB3ACIALAAiAHQAYQBnAHMAIgA6AHsAIgBhAGkALgBzAGUAcwBzAGkAbwBuAC4AaQBkACIAOgAiAGsANABqAGIAQwAiACwAIgBhAGkALgBkAGUAdgBpAGMAZQAuAGkAZAAiADoAIgBiAHIAbwB3AHMAZQByACIALAAiAGEAaQAuAGQAZQB2AGkAYwBlAC4AdAB5AHAAZQAiADoAIgBCAHIAbwB3AHMAZQByACIALAAiAGEAaQAuAGkAbgB0AGUAcgBuAGEAbAAuAHMAZABrAFYAZQByAHMAaQBvAG4AIgA6ACIAagBhAHYAYQBzAGMAcgBpAHAAdAA6ADEALgAwAC4AMQAxACIALAAiAGEAaQAuAHUAcwBlAHIALgBpAGQAIgA6ACIARgBqADEAcwA2ACIALAAiAGEAaQAuAG8AcABlAHIAYQB0AGkAbwBuAC4AaQBkACIAOgAiADQAaQB5AG8ARQAiACwAIgBhAGkALgBvAHAAZQByAGEAdABpAG8AbgAuAG4AYQBtAGUAIgA6ACIALwBhAGQAZgBzAC8AbABzAC8AIgB9ACwAIgBkAGEAdABhACIAOgB7ACIAYgBhAHMAZQBUAHkAcABlACIAOgAiAFAAYQBnAGUAdgBpAGUAdwBEAGEAdABhACIALAAiAGIAYQBzAGUARABhAHQAYQAiADoAewAiAHYAZQByACIAOgAyACwAIgBuAGEAbQBlACIAOgAiAEcAZQBuAGUAcgBpAGMAIgAsACIAdQByAGwAIgA6ACIAaAB0AHQAcABzADoALwAvAG0AcwBmAHQALgBzAHQAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBhAGQAZgBzAC8AbABzAC8APwBjAGwAaQBlAG4AdAAtAHIAZQBxAHUAZQBzAHQALQBpAGQAPQBlADgANAAzADgAOABlAGQALQBhAGYAYgA5AC0ANABhAGQAMAAtAGIAYwAxAGQALQAyADIANAAyADUAZgA3AGYAZQBjAGEANAAmAHUAcwBlAHIAbgBhAG0AZQA9AHMAZQBzAGQAMwA2ADUAJQA0ADAAbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAmAHcAYQA9AHcAcwBpAGcAbgBpAG4AMQAuADAAJgB3AHQAcgBlAGEAbABtAD0AdQByAG4AJQAzAGEAZgBlAGQAZQByAGEAdABpAG8AbgAlADMAYQBNAGkAYwByAG8AcwBvAGYAdABPAG4AbABpAG4AZQAmAHcAYwB0AHgAPQBlAHMAdABzAHIAZQBkAGkAcgBlAGMAdAAlADMAZAAyACUAMgA2AGUAcwB0AHMAcgBlAHEAdQBlAHMAdAAlADMAZAByAFEASQBJAEEAWgBXAFQAUABZAC0AYgBkAGcARABHAGoAXwBQAGwAbABFAFIAVgBFADEAVQBkAHUAbABTAEsAbwBrAHgAVgBzAFEARQBEAGYAegBqAHAAVgBBAEcATwB3AGQAaQBBAEQAVAA0AHcATABJAGgAWAA4ADIASgBlAEQAdgA2AGMAYgBaAGEAdQBIAFQATgAzAGIAQwB0AFYAaQBsAFIAVgA2AHQAUgBXAF8AUQBMAE4AVQBOADIAYwBUAHgAQgBWADcAZABLAHAAWQA1ADIAUAAwAE8AVQBaAEgAagAxADYAbAB1AGYAMwBmAEQAYgBBAGgAXwBqAFYAQwA1ADkAaAB5AE4ARABIAEEAOQBSAG4AXwBSAEEAbABTAFIAQwBqAHIARQAtAEUAYQBCAGgAZwBkAEEAVABZADIAQQBQAEEAYgB6ADUANgBfAFAAVAB2AHIANABSADMAdgBfAHgANABMAF8AXwAyADYAWABQAGUAXwBmAEsAdgA3ADEANABqAG4AeQBjAFEAMQB1ADMAVgBhAEYAUwBrAFIAVgB0AHUANAA3AEwAegA0AEwAQgBJAGcANgBaAHEAcQB4AGcARwBUAFYARgBYAEQAZgBSADIANwBUAEMAbwBpAHQASABQAEMASABLAFAASQBPADgAUQA1AFAAVgA1AFMANABfAHAATQBVAE0AegBBAEMAZQB4AE0AWQAwAEIAQwBsAEIARABwAFEAOQBUAFIANQBSADMAagBqAGkARABUAHUAYQBrAHQAbwBGAGgAeQBsAG8AaABGADUAYQBjAE8AMgBzAGIAMgB0AFkATQBzADcATQBrAGMAUQBvAG4AVQBmAHMAVgBxAFYAcgAyADMAcwBuAGsAeABPADQANQBxAEUANgBjAFYARABuAGwAMQBVAG0ATwBMADkAYgA1ADIATABGAE8ASABkAFkATgBjAGYASQB6AFQAWABRAFMAcABkADkAUwBiADgALQBmAGEARgB3AEgARQAtAEsAOQBWAEUAMwBhAFIAXwAtAGMAUAA0AHEAcgBwAG4ARAByAHEAbwBWAGYARAA3ADQAZgBhAEgAVgBVAHoAawBLAGgASwBzAHMAbwBnAE0AUAAzAHMAYQBpAEUAYQBlAEQAQgB0AEMAcQBYAFQAVgBWAEgARABVAHkAagA5AGgAcgBLAG4AcQBSAHEAYQBZAEsAcgBfAEwAegBqADIAVQBEAGEAOQBRAHUAaABZAHoAawB3ADMAdQB1AGkASwBXAFYATAAxADUAUwBVAHgAbABHADcAZQBTADcAegBTAHoANgBaAGUAZwBTAGYAcgBhAGEASwBNAEoALQBZAFoAbwBsAE8AVwBkAFQAdABwAHQAYgBpAGQAcQB4ADYAVwBHAEwAaABxADUAZgBWADAAcgBqAEYAcQBaAGwAWABiAFMAMQBRAFMAbwBuAHMARwB1AHQAZQBaAGgAUgA3AHUAYwBpAEsAYQBPAFcATwA2AC0ASwA0ADcAegB0AGEAcgBmAEcAWQB6AHMAbwB4AFIAWgBTAEcAMQAxAG8AdQBpAFIAbwBKAGMAVABoAEUAUQBhADEAbQBNAHAAZAB4AGQAZwBBAGgAYQBuAEoAdQBQADYAbABsADMAdABxAHAAbABMAGoAYgBoAHoANQBhAHMAcABVAHcANQBtAE8ARABNAEcANwBhAG8ATwB1AFMAOAB0AGEAXwBPADYAZwBVAFYAUgBSAHcATwBqAHQAcwBqAHMAMQBCAHUAWABQADYATwBMAE4AdAByADUAOABmAEoARQBQAGIARgB1AEgATAAtAEUAWQBIAGYARgBTADAAdQB3AEkARwBVAG8AMABxAFoAcgBhADIAcgBjAEwARQA2AEUANwBHADAAcQBOAEcAaQBSAG4AUABsAFYAWABmAG8ANAB2AEoASABPAE8AVwBrAHEAWQB6AGQAawBfAEcAZABMAF8AbgBuAEYAeQBnAEwARgAzAFcAOABsAHAAUgBqAHEASwB4AEUAcQBlAGIAVABOADMAUQB5ADUAYQBoADEAcAAxAHgAaABPAHkAMgBQADkAegBtAHAARQA1AG4AZQBUADYAaABWAEMAcQBwAGQAUQBNAEcARwA4AGIAVAAxADMAMABwAGUATABsAHIAYgBrAHMAQQBsAFIAVwBqAGsATwBoADIAdgBqAEIAVABZAGwAcgBvADkAbABSAEsATgB0AEkASwBIAGoAYwBUADgAcQBmAEIAQwAwAEQARQBMAE0AUAA0AE0AYwByAFEATQBZADYAUwB1AEgAYwBpAEYAdgBkADgAbABBAGgAQgBFAEcASQA0AEgAdgBvAGsAZQBEAFAANAA4AEQAUgBaAG0AWQBiAFAANgBxAGEASwAwADEAMQAwAGYANABIADgAZQBmAEUAQgBOAHIAaAA2AC0AUABEAHgAMAA3AE4AUAB6AHAANgBkAF8AWAB1AEIAZgBQAFAAZwBCAFAAYQBUADcAbwB2AHIAMwAyAGMAZgBxAHoAXwA4AGMAZgBmAHQAOAA3AGYAaQAyAFoAcwBIAG8ALQBDAG8ALQBxAE8AMQBBAG4AVgA3AFkAZwBBAF8AQQA1AHEAZwB6AHoAZQA0AHoAUgBkAEgATwBiAHoAWgBRAFEAVQA3AEMATABNAEkAZwBKAGIARABtAFcAdgBpAEMAbgA5ADEAaQBiAHkANgB2AFAAegAxADAAZgA4ADYAeABIADgAMQAmAHAAbwBwAHUAcAB1AGkAPQAiACwAIgBkAHUAcgBhAHQAaQBvAG4AIgA6ACIAMAAwADoAMAAwADoAMAAxAC4AOAA3ADkAIgB9AH0AfQAsAHsAIgB0AGkAbQBlACIAOgAiADIAMAAxADcALQAwADgALQAxADgAVAAyADEAOgAwADUAOgA0ADcALgA1ADcANQBaACIALAAiAGkASwBlAHkAIgA6ACIAYgA2ADkAOAAyAGQANQBlAC0AZABlADgAMgAtADQAMgBmADgALQA5ADkAOQAxAC0AYQBiADUAZAA2ADcANgBiAGEAMgAyADkAIgAsACIAbgBhAG0AZQAiADoAIgBNAGkAYwByAG8AcwBvAGYAdAAuAEEAcABwAGwAaQBjAGEAdABpAG8AbgBJAG4AcwBpAGcAaAB0AHMALgBiADYAOQA4ADIAZAA1AGUAZABlADgAMgA0ADIAZgA4ADkAOQA5ADEAYQBiADUAZAA2ADcANgBiAGEAMgAyADkALgBQAGEAZwBlAHYAaQBlAHcAUABlAHIAZgBvAHIAbQBhAG4AYwBlACIALAAiAHQAYQBnAHMAIgA6AHsAIgBhAGkALgBzAGUAcwBzAGkAbwBuAC4AaQBkACIAOgAiAGsANABqAGIAQwAiACwAIgBhAGkALgBkAGUAdgBpAGMAZQAuAGkAZAAiADoAIgBiAHIAbwB3AHMAZQByACIALAAiAGEAaQAuAGQAZQB2AGkAYwBlAC4AdAB5AHAAZQAiADoAIgBCAHIAbwB3AHMAZQByACIALAAiAGEAaQAuAGkAbgB0AGUAcgBuAGEAbAAuAHMAZABrAFYAZQByAHMAaQBvAG4AIgA6ACIAagBhAHYAYQBzAGMAcgBpAHAAdAA6ADEALgAwAC4AMQAxACIALAAiAGEAaQAuAHUAcwBlAHIALgBpAGQAIgA6ACIARgBqADEAcwA2ACIALAAiAGEAaQAuAG8AcABlAHIAYQB0AGkAbwBuAC4AaQBkACIAOgAiADQAaQB5AG8ARQAiACwAIgBhAGkALgBvAHAAZQByAGEAdABpAG8AbgAuAG4AYQBtAGUAIgA6ACIALwBhAGQAZgBzAC8AbABzAC8AIgB9ACwAIgBkAGEAdABhACIAOgB7ACIAYgBhAHMAZQBUAHkAcABlACIAOgAiAFAAYQBnAGUAdgBpAGUAdwBQAGUAcgBmAG8AcgBtAGEAbgBjAGUARABhAHQAYQAiACwAIgBiAGEAcwBlAEQAYQB0AGEAIgA6AHsAIgB2AGUAcgAiADoAMgAsACIAbgBhAG0AZQAiADoAIgBHAGUAbgBlAHIAaQBjACIALAAiAHUAcgBsACIAOgAiAGgAdAB0AHAAcwA6AC8ALwBtAHMAZgB0AC4AcwB0AHMALgBtAGkAYwByAG8AcwBvAGYAdAAuAGMAbwBtAC8AYQBkAGYAcwAvAGwAcwAvAD8AYwBsAGkAZQBuAHQALQByAGUAcQB1AGUAcwB0AC0AaQBkAD0AZQA4ADQAMwA4ADgAZQBkAC0AYQBmAGIAOQAtADQAYQBkADAALQBiAGMAMQBkAC0AMgAyADQAMgA1AGYANwBmAGUAYwBhADQAJgB1AHMAZQByAG4AYQBtAGUAPQBzAGUAcwBkADMANgA1ACUANAAwAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0AJgB3AGEAPQB3AHMAaQBnAG4AaQBuADEALgAwACYAdwB0AHIAZQBhAGwAbQA9AHUAcgBuACUAMwBhAGYAZQBkAGUAcgBhAHQAaQBvAG4AJQAzAGEATQBpAGMAcgBvAHMAbwBmAHQATwBuAGwAaQBuAGUAJgB3AGMAdAB4AD0AZQBzAHQAcwByAGUAZABpAHIAZQBjAHQAJQAzAGQAMgAlADIANgBlAHMAdABzAHIAZQBxAHUAZQBzAHQAJQAzAGQAcgBRAEkASQBBAFoAVwBUAFAAWQAtAGIAZABnAEQARwBqAF8AUABsAGwARQBSAFYARQAxAFUAZAB1AGwAUwBLAG8AawB4AFYAcwBRAEUARABmAHoAagBwAFYAQQBHAE8AdwBkAGkAQQBEAFQANAB3AEwASQBoAFgAOAAyAEoAZQBEAHYANgBjAGIAWgBhAHUASABUAE4AMwBiAEMAdABWAGkAbABSAFYANgB0AFIAVwBfAFEATABOAFUATgAyAGMAVAB4AEIAVgA3AGQASwBwAFkANQAyAFAAMABPAFUAWgBIAGoAMQA2AGwAdQBmADMAZgBEAGIAQQBoAF8AagBWAEMANQA5AGgAeQBOAEQASABBADkAUgBuAF8AUgBBAGwAUwBSAEMAagByAEUALQBFAGEAQgBoAGcAZABBAFQAWQAyAEEAUABBAGIAegA1ADYAXwBQAFQAdgByADQAUgAzAHYAXwB4ADQATABfAF8AMgA2AFgAUABlAF8AZgBLAHYANwAxADQAagBuAHkAYwBRADEAdQAzAFYAYQBGAFMAawBSAFYAdAB1ADQANwBMAHoANABMAEIASQBnADYAWgBxAHEAeABnAEcAVABWAEYAWABEAGYAUgAyADcAVABDAG8AaQB0AEgAUABDAEgASwBQAEkATwA4AFEANQBQAFYANQBTADQAXwBwAE0AVQBNAHoAQQBDAGUAeABNAFkAMABCAEMAbABCAEQAcABRADkAVABSADUAUgAzAGoAagBpAEQAVAB1AGEAawB0AG8ARgBoAHkAbABvAGgARgA1AGEAYwBPADIAcwBiADIAdABZAE0AcwA3AE0AawBjAFEAbwBuAFUAZgBzAFYAcQBWAHIAMgAzAHMAbgBrAHgATwA0ADUAcQBFADYAYwBWAEQAbgBsADEAVQBtAE8ATAA5AGIANQAyAEwARgBPAEgAZABZAE4AYwBmAEkAegBUAFgAUQBTAHAAZAA5AFMAYgA4AC0AZgBhAEYAdwBIAEUALQBLADkAVgBFADMAYQBSAF8ALQBjAFAANABxAHIAcABuAEQAcgBxAG8AVgBmAEQANwA0AGYAYQBIAFYAVQB6AGsASwBoAEsAcwBzAG8AZwBNAFAAMwBzAGEAaQBFAGEAZQBEAEIAdABDAHEAWABUAFYAVgBIAEQAVQB5AGoAOQBoAHIASwBuAHEAUgBxAGEAWQBLAHIAXwBMAHoAagAyAFUARABhADkAUQB1AGgAWQB6AGsAdwAzAHUAdQBpAEsAVwBWAEwAMQA1AFMAVQB4AGwARwA3AGUAUwA3AHoAUwB6ADYAWgBlAGcAUwBmAHIAYQBhAEsATQBKAC0AWQBaAG8AbABPAFcAZABUAHQAcAB0AGIAaQBkAHEAeAA2AFcARwBMAGgAcQA1AGYAVgAwAHIAagBGAHEAWgBsAFgAYgBTADEAUQBTAG8AbgBzAEcAdQB0AGUAWgBoAFIANwB1AGMAaQBLAGEATwBXAE8ANgAtAEsANAA3AHoAdABhAHIAZgBHAFkAegBzAG8AeABSAFoAUwBHADEAMQBvAHUAaQBSAG8ASgBjAFQAaABFAFEAYQAxAG0ATQBwAGQAeABkAGcAQQBoAGEAbgBKAHUAUAA2AGwAbAAzAHQAcQBwAGwATABqAGIAaAB6ADUAYQBzAHAAVQB3ADUAbQBPAEQATQBHADcAYQBvAE8AdQBTADgAdABhAF8ATwA2AGcAVQBWAFIAUgB3AE8AagB0AHMAagBzADEAQgB1AFgAUAA2AE8ATABOAHQAcgA1ADgAZgBKAEUAUABiAEYAdQBIAEwALQBFAFkASABmAEYAUwAwAHUAdwBJAEcAVQBvADAAcQBaAHIAYQAyAHIAYwBMAEUANgBFADcARwAwAHEATgBHAGkAUgBuAFAAbABWAFgAZgBvADQAdgBKAEgATwBPAFcAawBxAFkAegBkAGsAXwBHAGQATABfAG4AbgBGAHkAZwBMAEYAMwBXADgAbABwAFIAagBxAEsAeABFAHEAZQBiAFQATgAzAFEAeQA1AGEAaAAxAHAAMQB4AGgATwB5ADIAUAA5AHoAbQBwAEUANQBuAGUAVAA2AGgAVgBDAHEAcABkAFEATQBHAEcAOABiAFQAMQAzADAAcABlAEwAbAByAGIAawBzAEEAbABSAFcAagBrAE8AaAAyAHYAagBCAFQAWQBsAHIAbwA5AGwAUgBLAE4AdABJAEsASABqAGMAVAA4AHEAZgBCAEMAMABEAEUATABNAFAANABNAGMAcgBRAE0AWQA2AFMAdQBIAGMAaQBGAHYAZAA4AGwAQQBoAEIARQBHAEkANABIAHYAbwBrAGUARABQADQAOABEAFIAWgBtAFkAYgBQADYAcQBhAEsAMAAxADEAMABmADQASAA4AGUAZgBFAEIATgByAGgANgAtAFAARAB4ADAANwBOAFAAegBwADYAZABfAFgAdQBCAGYAUABQAGcAQgBQAGEAVAA3AG8AdgByADMAMgBjAGYAcQB6AF8AOABjAGYAZgB0ADgANwBmAGkAMgBaAHMASABvAC0AQwBvAC0AcQBPADEAQQBuAFYANwBZAGcAQQBfAEEANQBxAGcAegB6AGUANAB6AFIAZABIAE8AYgB6AFoAUQBRAFUANwBDAEwATQBJAGcASgBiAEQAbQBXAHYAaQBDAG4AOQAxAGkAYgB5ADYAdgBQAHoAMQAwAGYAOAA2AHgASAA4ADEAJgBwAG8AcAB1AHAAdQBpAD0AIgAsACIAZAB1AHIAYQB0AGkAbwBuACIAOgAiADAAMAA6ADAAMAA6ADAAMQAuADgANwA5ACIALAAiAHAAZQByAGYAVABvAHQAYQBsACIAOgAiADAAMAA6ADAAMAA6ADAAMQAuADgANwA5ACIALAAiAG4AZQB0AHcAbwByAGsAQwBvAG4AbgBlAGMAdAAiADoAIgAwADAAOgAwADAAOgAwADAALgAwADAAMQAiACwAIgBzAGUAbgB0AFIAZQBxAHUAZQBzAHQAIgA6ACIAMAAwADoAMAAwADoAMAAwAC4AMAAwADEAIgAsACIAcgBlAGMAZQBpAHYAZQBkAFIAZQBzAHAAbwBuAHMAZQAiADoAIgAwADAAOgAwADAAOgAwADAALgA4ADMAOAAiACwAIgBkAG8AbQBQAHIAbwBjAGUAcwBzAGkAbgBnACIAOgAiADAAMAA6ADAAMAA6ADAAMAAuADAANgA5ACIAfQB9AH0AXQA=</StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="0645f9f9-ab29-455f-83b3-0f8deb28d287" Version="1.1" Url="https://msft.sts.microsoft.com/adfs/ls/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://msft.sts.microsoft.com/adfs/ls/?client-request-id=e84388ed-afb9-4ad0-bc1d-22425f7feca4&amp;username=sesd365%40microsoft.com&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81&amp;popupui=" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam5.client-request-id" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?client-request-id=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam9.wctx" DisplayName="Extract Text" Description="Extract text from the response and place it into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wctx=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam6.username" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;username=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam7.wa" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wa=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam8.wtrealm" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;wtrealm=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam10.pullStatus" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;pullStatus=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam11.page_hint" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;page_hint=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam23.UserName" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="userNameInput" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client-request-id" Value="{{QueryStringParam12.client-request-id}}" RecordedValue="e84388ed-afb9-4ad0-bc1d-22425f7feca4" CorrelationBinding="{{QueryStringParam12.client-request-id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="username" Value="sesd365%40microsoft.com" RecordedValue="sesd365%40microsoft.com" CorrelationBinding="{{QueryStringParam13.username}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wa" Value="wsignin1.0" RecordedValue="wsignin1.0" CorrelationBinding="{{QueryStringParam14.wa}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wtrealm" Value="urn%3afederation%3aMicrosoftOnline" RecordedValue="urn%3afederation%3aMicrosoftOnline" CorrelationBinding="{{QueryStringParam15.wtrealm}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wctx" Value="{{QueryStringParam16.wctx}}" RecordedValue="estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81" CorrelationBinding="{{QueryStringParam16.wctx}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="popupui" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pullStatus" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam17.pullStatus}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="fd0546e7-7c23-41f8-80cb-2410847abb28" Version="1.1" Url="https://dc.services.visualstudio.com/v2/track" ThinkTime="31" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://msft.sts.microsoft.com/adfs/ls/?client-request-id=e84388ed-afb9-4ad0-bc1d-22425f7feca4&amp;username=sesd365%40microsoft.com&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81&amp;popupui=&amp;pullStatus=0" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">WwB7ACIAdABpAG0AZQAiADoAIgAyADAAMQA3AC0AMAA4AC0AMQA4AFQAMgAxADoAMAA1ADoANQAxAC4ANAAxADAAWgAiACwAIgBpAEsAZQB5ACIAOgAiAGIANgA5ADgAMgBkADUAZQAtAGQAZQA4ADIALQA0ADIAZgA4AC0AOQA5ADkAMQAtAGEAYgA1AGQANgA3ADYAYgBhADIAMgA5ACIALAAiAG4AYQBtAGUAIgA6ACIATQBpAGMAcgBvAHMAbwBmAHQALgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ASQBuAHMAaQBnAGgAdABzAC4AYgA2ADkAOAAyAGQANQBlAGQAZQA4ADIANAAyAGYAOAA5ADkAOQAxAGEAYgA1AGQANgA3ADYAYgBhADIAMgA5AC4ARQB2AGUAbgB0ACIALAAiAHQAYQBnAHMAIgA6AHsAIgBhAGkALgBzAGUAcwBzAGkAbwBuAC4AaQBkACIAOgAiAGsANABqAGIAQwAiACwAIgBhAGkALgBkAGUAdgBpAGMAZQAuAGkAZAAiADoAIgBiAHIAbwB3AHMAZQByACIALAAiAGEAaQAuAGQAZQB2AGkAYwBlAC4AdAB5AHAAZQAiADoAIgBCAHIAbwB3AHMAZQByACIALAAiAGEAaQAuAGkAbgB0AGUAcgBuAGEAbAAuAHMAZABrAFYAZQByAHMAaQBvAG4AIgA6ACIAagBhAHYAYQBzAGMAcgBpAHAAdAA6ADEALgAwAC4AMQAxACIALAAiAGEAaQAuAHUAcwBlAHIALgBpAGQAIgA6ACIARgBqADEAcwA2ACIALAAiAGEAaQAuAG8AcABlAHIAYQB0AGkAbwBuAC4AaQBkACIAOgAiAHUANABIAHAAVgAiACwAIgBhAGkALgBvAHAAZQByAGEAdABpAG8AbgAuAG4AYQBtAGUAIgA6ACIALwBhAGQAZgBzAC8AbABzAC8AIgB9ACwAIgBkAGEAdABhACIAOgB7ACIAYgBhAHMAZQBUAHkAcABlACIAOgAiAEUAdgBlAG4AdABEAGEAdABhACIALAAiAGIAYQBzAGUARABhAHQAYQAiADoAewAiAHYAZQByACIAOgAyACwAIgBuAGEAbQBlACIAOgAiAEYAbwByAG0AcwBQAGEAZwBlAFMAdABhAHIAdAAiACwAIgBwAHIAbwBwAGUAcgB0AGkAZQBzACIAOgB7ACIAQwBvAHIAcgBlAGwAYQB0AGkAbwBuAEkARAAiADoAIgBlADgANAAzADgAOABlAGQALQBhAGYAYgA5AC0ANABhAGQAMAAtAGIAYwAxAGQALQAyADIANAAyADUAZgA3AGYAZQBjAGEANAAiACwAIgBDAHUAcgByAGUAbgB0AFUAcgBpACIAOgAiAGgAdAB0AHAAcwA6AC8ALwBtAHMAZgB0AC4AcwB0AHMALgBtAGkAYwByAG8AcwBvAGYAdAAuAGMAbwBtAC8AYQBkAGYAcwAvAGwAcwAvACIALAAiAEMAdQByAHIAZQBuAHQAUgBlAGEAbABtACIAOgAiAHUAcgBuADoAZgBlAGQAZQByAGEAdABpAG8AbgA6AE0AaQBjAHIAbwBzAG8AZgB0AE8AbgBsAGkAbgBlACIALAAiAHcAYQB1AHQAaAAiADoAIgBOAE8AVABTAEUAVAAiACwAIgB3AGYAcgBlAHMAaAAiADoAIgBOAE8AVABTAEUAVAAiACwAIgB3AHQAcgBlAGEAbABtACIAOgAiAHUAcgBuADoAZgBlAGQAZQByAGEAdABpAG8AbgA6AE0AaQBjAHIAbwBzAG8AZgB0AE8AbgBsAGkAbgBlACIAfQB9AH0AfQAsAHsAIgB0AGkAbQBlACIAOgAiADIAMAAxADcALQAwADgALQAxADgAVAAyADEAOgAwADUAOgA1ADEALgA1ADEANgBaACIALAAiAGkASwBlAHkAIgA6ACIAYgA2ADkAOAAyAGQANQBlAC0AZABlADgAMgAtADQAMgBmADgALQA5ADkAOQAxAC0AYQBiADUAZAA2ADcANgBiAGEAMgAyADkAIgAsACIAbgBhAG0AZQAiADoAIgBNAGkAYwByAG8AcwBvAGYAdAAuAEEAcABwAGwAaQBjAGEAdABpAG8AbgBJAG4AcwBpAGcAaAB0AHMALgBiADYAOQA4ADIAZAA1AGUAZABlADgAMgA0ADIAZgA4ADkAOQA5ADEAYQBiADUAZAA2ADcANgBiAGEAMgAyADkALgBQAGEAZwBlAHYAaQBlAHcAIgAsACIAdABhAGcAcwAiADoAewAiAGEAaQAuAHMAZQBzAHMAaQBvAG4ALgBpAGQAIgA6ACIAawA0AGoAYgBDACIALAAiAGEAaQAuAGQAZQB2AGkAYwBlAC4AaQBkACIAOgAiAGIAcgBvAHcAcwBlAHIAIgAsACIAYQBpAC4AZABlAHYAaQBjAGUALgB0AHkAcABlACIAOgAiAEIAcgBvAHcAcwBlAHIAIgAsACIAYQBpAC4AaQBuAHQAZQByAG4AYQBsAC4AcwBkAGsAVgBlAHIAcwBpAG8AbgAiADoAIgBqAGEAdgBhAHMAYwByAGkAcAB0ADoAMQAuADAALgAxADEAIgAsACIAYQBpAC4AdQBzAGUAcgAuAGkAZAAiADoAIgBGAGoAMQBzADYAIgAsACIAYQBpAC4AbwBwAGUAcgBhAHQAaQBvAG4ALgBpAGQAIgA6ACIAdQA0AEgAcABWACIALAAiAGEAaQAuAG8AcABlAHIAYQB0AGkAbwBuAC4AbgBhAG0AZQAiADoAIgAvAGEAZABmAHMALwBsAHMALwAiAH0ALAAiAGQAYQB0AGEAIgA6AHsAIgBiAGEAcwBlAFQAeQBwAGUAIgA6ACIAUABhAGcAZQB2AGkAZQB3AEQAYQB0AGEAIgAsACIAYgBhAHMAZQBEAGEAdABhACIAOgB7ACIAdgBlAHIAIgA6ADIALAAiAG4AYQBtAGUAIgA6ACIARwBlAG4AZQByAGkAYwAiACwAIgB1AHIAbAAiADoAIgBoAHQAdABwAHMAOgAvAC8AbQBzAGYAdAAuAHMAdABzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAGEAZABmAHMALwBsAHMALwA/AGMAbABpAGUAbgB0AC0AcgBlAHEAdQBlAHMAdAAtAGkAZAA9AGUAOAA0ADMAOAA4AGUAZAAtAGEAZgBiADkALQA0AGEAZAAwAC0AYgBjADEAZAAtADIAMgA0ADIANQBmADcAZgBlAGMAYQA0ACYAdQBzAGUAcgBuAGEAbQBlAD0AcwBlAHMAZAAzADYANQAlADQAMABtAGkAYwByAG8AcwBvAGYAdAAuAGMAbwBtACYAdwBhAD0AdwBzAGkAZwBuAGkAbgAxAC4AMAAmAHcAdAByAGUAYQBsAG0APQB1AHIAbgAlADMAYQBmAGUAZABlAHIAYQB0AGkAbwBuACUAMwBhAE0AaQBjAHIAbwBzAG8AZgB0AE8AbgBsAGkAbgBlACYAdwBjAHQAeAA9AGUAcwB0AHMAcgBlAGQAaQByAGUAYwB0ACUAMwBkADIAJQAyADYAZQBzAHQAcwByAGUAcQB1AGUAcwB0ACUAMwBkAHIAUQBJAEkAQQBaAFcAVABQAFkALQBiAGQAZwBEAEcAagBfAFAAbABsAEUAUgBWAEUAMQBVAGQAdQBsAFMASwBvAGsAeABWAHMAUQBFAEQAZgB6AGoAcABWAEEARwBPAHcAZABpAEEARABUADQAdwBMAEkAaABYADgAMgBKAGUARAB2ADYAYwBiAFoAYQB1AEgAVABOADMAYgBDAHQAVgBpAGwAUgBWADYAdABSAFcAXwBRAEwATgBVAE4AMgBjAFQAeABCAFYANwBkAEsAcABZADUAMgBQADAATwBVAFoASABqADEANgBsAHUAZgAzAGYARABiAEEAaABfAGoAVgBDADUAOQBoAHkATgBEAEgAQQA5AFIAbgBfAFIAQQBsAFMAUgBDAGoAcgBFAC0ARQBhAEIAaABnAGQAQQBUAFkAMgBBAFAAQQBiAHoANQA2AF8AUABUAHYAcgA0AFIAMwB2AF8AeAA0AEwAXwBfADIANgBYAFAAZQBfAGYASwB2ADcAMQA0AGoAbgB5AGMAUQAxAHUAMwBWAGEARgBTAGsAUgBWAHQAdQA0ADcATAB6ADQATABCAEkAZwA2AFoAcQBxAHgAZwBHAFQAVgBGAFgARABmAFIAMgA3AFQAQwBvAGkAdABIAFAAQwBIAEsAUABJAE8AOABRADUAUABWADUAUwA0AF8AcABNAFUATQB6AEEAQwBlAHgATQBZADAAQgBDAGwAQgBEAHAAUQA5AFQAUgA1AFIAMwBqAGoAaQBEAFQAdQBhAGsAdABvAEYAaAB5AGwAbwBoAEYANQBhAGMATwAyAHMAYgAyAHQAWQBNAHMANwBNAGsAYwBRAG8AbgBVAGYAcwBWAHEAVgByADIAMwBzAG4AawB4AE8ANAA1AHEARQA2AGMAVgBEAG4AbAAxAFUAbQBPAEwAOQBiADUAMgBMAEYATwBIAGQAWQBOAGMAZgBJAHoAVABYAFEAUwBwAGQAOQBTAGIAOAAtAGYAYQBGAHcASABFAC0ASwA5AFYARQAzAGEAUgBfAC0AYwBQADQAcQByAHAAbgBEAHIAcQBvAFYAZgBEADcANABmAGEASABWAFUAegBrAEsAaABLAHMAcwBvAGcATQBQADMAcwBhAGkARQBhAGUARABCAHQAQwBxAFgAVABWAFYASABEAFUAeQBqADkAaAByAEsAbgBxAFIAcQBhAFkASwByAF8ATAB6AGoAMgBVAEQAYQA5AFEAdQBoAFkAegBrAHcAMwB1AHUAaQBLAFcAVgBMADEANQBTAFUAeABsAEcANwBlAFMANwB6AFMAegA2AFoAZQBnAFMAZgByAGEAYQBLAE0ASgAtAFkAWgBvAGwATwBXAGQAVAB0AHAAdABiAGkAZABxAHgANgBXAEcATABoAHEANQBmAFYAMAByAGoARgBxAFoAbABYAGIAUwAxAFEAUwBvAG4AcwBHAHUAdABlAFoAaABSADcAdQBjAGkASwBhAE8AVwBPADYALQBLADQANwB6AHQAYQByAGYARwBZAHoAcwBvAHgAUgBaAFMARwAxADEAbwB1AGkAUgBvAEoAYwBUAGgARQBRAGEAMQBtAE0AcABkAHgAZABnAEEAaABhAG4ASgB1AFAANgBsAGwAMwB0AHEAcABsAEwAagBiAGgAegA1AGEAcwBwAFUAdwA1AG0ATwBEAE0ARwA3AGEAbwBPAHUAUwA4AHQAYQBfAE8ANgBnAFUAVgBSAFIAdwBPAGoAdABzAGoAcwAxAEIAdQBYAFAANgBPAEwATgB0AHIANQA4AGYASgBFAFAAYgBGAHUASABMAC0ARQBZAEgAZgBGAFMAMAB1AHcASQBHAFUAbwAwAHEAWgByAGEAMgByAGMATABFADYARQA3AEcAMABxAE4ARwBpAFIAbgBQAGwAVgBYAGYAbwA0AHYASgBIAE8ATwBXAGsAcQBZAHoAZABrAF8ARwBkAEwAXwBuAG4ARgB5AGcATABGADMAVwA4AGwAcABSAGoAcQBLAHgARQBxAGUAYgBUAE4AMwBRAHkANQBhAGgAMQBwADEAeABoAE8AeQAyAFAAOQB6AG0AcABFADUAbgBlAFQANgBoAFYAQwBxAHAAZABRAE0ARwBHADgAYgBUADEAMwAwAHAAZQBMAGwAcgBiAGsAcwBBAGwAUgBXAGoAawBPAGgAMgB2AGoAQgBUAFkAbAByAG8AOQBsAFIASwBOAHQASQBLAEgAagBjAFQAOABxAGYAQgBDADAARABFAEwATQBQADQATQBjAHIAUQBNAFkANgBTAHUASABjAGkARgB2AGQAOABsAEEAaABCAEUARwBJADQASAB2AG8AawBlAEQAUAA0ADgARABSAFoAbQBZAGIAUAA2AHEAYQBLADAAMQAxADAAZgA0AEgAOABlAGYARQBCAE4AcgBoADYALQBQAEQAeAAwADcATgBQAHoAcAA2AGQAXwBYAHUAQgBmAFAAUABnAEIAUABhAFQANwBvAHYAcgAzADIAYwBmAHEAegBfADgAYwBmAGYAdAA4ADcAZgBpADIAWgBzAEgAbwAtAEMAbwAtAHEATwAxAEEAbgBWADcAWQBnAEEAXwBBADUAcQBnAHoAegBlADQAegBSAGQASABPAGIAegBaAFEAUQBVADcAQwBMAE0ASQBnAEoAYgBEAG0AVwB2AGkAQwBuADkAMQBpAGIAeQA2AHYAUAB6ADEAMABmADgANgB4AEgAOAAxACYAcABvAHAAdQBwAHUAaQA9ACYAcAB1AGwAbABTAHQAYQB0AHUAcwA9ADAAIgAsACIAZAB1AHIAYQB0AGkAbwBuACIAOgAiADAAMAA6ADAAMAA6ADAAMAAuADYANAA0ACIAfQB9AH0ALAB7ACIAdABpAG0AZQAiADoAIgAyADAAMQA3AC0AMAA4AC0AMQA4AFQAMgAxADoAMAA1ADoANQAxAC4ANQAxADcAWgAiACwAIgBpAEsAZQB5ACIAOgAiAGIANgA5ADgAMgBkADUAZQAtAGQAZQA4ADIALQA0ADIAZgA4AC0AOQA5ADkAMQAtAGEAYgA1AGQANgA3ADYAYgBhADIAMgA5ACIALAAiAG4AYQBtAGUAIgA6ACIATQBpAGMAcgBvAHMAbwBmAHQALgBBAHAAcABsAGkAYwBhAHQAaQBvAG4ASQBuAHMAaQBnAGgAdABzAC4AYgA2ADkAOAAyAGQANQBlAGQAZQA4ADIANAAyAGYAOAA5ADkAOQAxAGEAYgA1AGQANgA3ADYAYgBhADIAMgA5AC4AUABhAGcAZQB2AGkAZQB3AFAAZQByAGYAbwByAG0AYQBuAGMAZQAiACwAIgB0AGEAZwBzACIAOgB7ACIAYQBpAC4AcwBlAHMAcwBpAG8AbgAuAGkAZAAiADoAIgBrADQAagBiAEMAIgAsACIAYQBpAC4AZABlAHYAaQBjAGUALgBpAGQAIgA6ACIAYgByAG8AdwBzAGUAcgAiACwAIgBhAGkALgBkAGUAdgBpAGMAZQAuAHQAeQBwAGUAIgA6ACIAQgByAG8AdwBzAGUAcgAiACwAIgBhAGkALgBpAG4AdABlAHIAbgBhAGwALgBzAGQAawBWAGUAcgBzAGkAbwBuACIAOgAiAGoAYQB2AGEAcwBjAHIAaQBwAHQAOgAxAC4AMAAuADEAMQAiACwAIgBhAGkALgB1AHMAZQByAC4AaQBkACIAOgAiAEYAagAxAHMANgAiACwAIgBhAGkALgBvAHAAZQByAGEAdABpAG8AbgAuAGkAZAAiADoAIgB1ADQASABwAFYAIgAsACIAYQBpAC4AbwBwAGUAcgBhAHQAaQBvAG4ALgBuAGEAbQBlACIAOgAiAC8AYQBkAGYAcwAvAGwAcwAvACIAfQAsACIAZABhAHQAYQAiADoAewAiAGIAYQBzAGUAVAB5AHAAZQAiADoAIgBQAGEAZwBlAHYAaQBlAHcAUABlAHIAZgBvAHIAbQBhAG4AYwBlAEQAYQB0AGEAIgAsACIAYgBhAHMAZQBEAGEAdABhACIAOgB7ACIAdgBlAHIAIgA6ADIALAAiAG4AYQBtAGUAIgA6ACIARwBlAG4AZQByAGkAYwAiACwAIgB1AHIAbAAiADoAIgBoAHQAdABwAHMAOgAvAC8AbQBzAGYAdAAuAHMAdABzAC4AbQBpAGMAcgBvAHMAbwBmAHQALgBjAG8AbQAvAGEAZABmAHMALwBsAHMALwA/AGMAbABpAGUAbgB0AC0AcgBlAHEAdQBlAHMAdAAtAGkAZAA9AGUAOAA0ADMAOAA4AGUAZAAtAGEAZgBiADkALQA0AGEAZAAwAC0AYgBjADEAZAAtADIAMgA0ADIANQBmADcAZgBlAGMAYQA0ACYAdQBzAGUAcgBuAGEAbQBlAD0AcwBlAHMAZAAzADYANQAlADQAMABtAGkAYwByAG8AcwBvAGYAdAAuAGMAbwBtACYAdwBhAD0AdwBzAGkAZwBuAGkAbgAxAC4AMAAmAHcAdAByAGUAYQBsAG0APQB1AHIAbgAlADMAYQBmAGUAZABlAHIAYQB0AGkAbwBuACUAMwBhAE0AaQBjAHIAbwBzAG8AZgB0AE8AbgBsAGkAbgBlACYAdwBjAHQAeAA9AGUAcwB0AHMAcgBlAGQAaQByAGUAYwB0ACUAMwBkADIAJQAyADYAZQBzAHQAcwByAGUAcQB1AGUAcwB0ACUAMwBkAHIAUQBJAEkAQQBaAFcAVABQAFkALQBiAGQAZwBEAEcAagBfAFAAbABsAEUAUgBWAEUAMQBVAGQAdQBsAFMASwBvAGsAeABWAHMAUQBFAEQAZgB6AGoAcABWAEEARwBPAHcAZABpAEEARABUADQAdwBMAEkAaABYADgAMgBKAGUARAB2ADYAYwBiAFoAYQB1AEgAVABOADMAYgBDAHQAVgBpAGwAUgBWADYAdABSAFcAXwBRAEwATgBVAE4AMgBjAFQAeABCAFYANwBkAEsAcABZADUAMgBQADAATwBVAFoASABqADEANgBsAHUAZgAzAGYARABiAEEAaABfAGoAVgBDADUAOQBoAHkATgBEAEgAQQA5AFIAbgBfAFIAQQBsAFMAUgBDAGoAcgBFAC0ARQBhAEIAaABnAGQAQQBUAFkAMgBBAFAAQQBiAHoANQA2AF8AUABUAHYAcgA0AFIAMwB2AF8AeAA0AEwAXwBfADIANgBYAFAAZQBfAGYASwB2ADcAMQA0AGoAbgB5AGMAUQAxAHUAMwBWAGEARgBTAGsAUgBWAHQAdQA0ADcATAB6ADQATABCAEkAZwA2AFoAcQBxAHgAZwBHAFQAVgBGAFgARABmAFIAMgA3AFQAQwBvAGkAdABIAFAAQwBIAEsAUABJAE8AOABRADUAUABWADUAUwA0AF8AcABNAFUATQB6AEEAQwBlAHgATQBZADAAQgBDAGwAQgBEAHAAUQA5AFQAUgA1AFIAMwBqAGoAaQBEAFQAdQBhAGsAdABvAEYAaAB5AGwAbwBoAEYANQBhAGMATwAyAHMAYgAyAHQAWQBNAHMANwBNAGsAYwBRAG8AbgBVAGYAcwBWAHEAVgByADIAMwBzAG4AawB4AE8ANAA1AHEARQA2AGMAVgBEAG4AbAAxAFUAbQBPAEwAOQBiADUAMgBMAEYATwBIAGQAWQBOAGMAZgBJAHoAVABYAFEAUwBwAGQAOQBTAGIAOAAtAGYAYQBGAHcASABFAC0ASwA5AFYARQAzAGEAUgBfAC0AYwBQADQAcQByAHAAbgBEAHIAcQBvAFYAZgBEADcANABmAGEASABWAFUAegBrAEsAaABLAHMAcwBvAGcATQBQADMAcwBhAGkARQBhAGUARABCAHQAQwBxAFgAVABWAFYASABEAFUAeQBqADkAaAByAEsAbgBxAFIAcQBhAFkASwByAF8ATAB6AGoAMgBVAEQAYQA5AFEAdQBoAFkAegBrAHcAMwB1AHUAaQBLAFcAVgBMADEANQBTAFUAeABsAEcANwBlAFMANwB6AFMAegA2AFoAZQBnAFMAZgByAGEAYQBLAE0ASgAtAFkAWgBvAGwATwBXAGQAVAB0AHAAdABiAGkAZABxAHgANgBXAEcATABoAHEANQBmAFYAMAByAGoARgBxAFoAbABYAGIAUwAxAFEAUwBvAG4AcwBHAHUAdABlAFoAaABSADcAdQBjAGkASwBhAE8AVwBPADYALQBLADQANwB6AHQAYQByAGYARwBZAHoAcwBvAHgAUgBaAFMARwAxADEAbwB1AGkAUgBvAEoAYwBUAGgARQBRAGEAMQBtAE0AcABkAHgAZABnAEEAaABhAG4ASgB1AFAANgBsAGwAMwB0AHEAcABsAEwAagBiAGgAegA1AGEAcwBwAFUAdwA1AG0ATwBEAE0ARwA3AGEAbwBPAHUAUwA4AHQAYQBfAE8ANgBnAFUAVgBSAFIAdwBPAGoAdABzAGoAcwAxAEIAdQBYAFAANgBPAEwATgB0AHIANQA4AGYASgBFAFAAYgBGAHUASABMAC0ARQBZAEgAZgBGAFMAMAB1AHcASQBHAFUAbwAwAHEAWgByAGEAMgByAGMATABFADYARQA3AEcAMABxAE4ARwBpAFIAbgBQAGwAVgBYAGYAbwA0AHYASgBIAE8ATwBXAGsAcQBZAHoAZABrAF8ARwBkAEwAXwBuAG4ARgB5AGcATABGADMAVwA4AGwAcABSAGoAcQBLAHgARQBxAGUAYgBUAE4AMwBRAHkANQBhAGgAMQBwADEAeABoAE8AeQAyAFAAOQB6AG0AcABFADUAbgBlAFQANgBoAFYAQwBxAHAAZABRAE0ARwBHADgAYgBUADEAMwAwAHAAZQBMAGwAcgBiAGsAcwBBAGwAUgBXAGoAawBPAGgAMgB2AGoAQgBUAFkAbAByAG8AOQBsAFIASwBOAHQASQBLAEgAagBjAFQAOABxAGYAQgBDADAARABFAEwATQBQADQATQBjAHIAUQBNAFkANgBTAHUASABjAGkARgB2AGQAOABsAEEAaABCAEUARwBJADQASAB2AG8AawBlAEQAUAA0ADgARABSAFoAbQBZAGIAUAA2AHEAYQBLADAAMQAxADAAZgA0AEgAOABlAGYARQBCAE4AcgBoADYALQBQAEQAeAAwADcATgBQAHoAcAA2AGQAXwBYAHUAQgBmAFAAUABnAEIAUABhAFQANwBvAHYAcgAzADIAYwBmAHEAegBfADgAYwBmAGYAdAA4ADcAZgBpADIAWgBzAEgAbwAtAEMAbwAtAHEATwAxAEEAbgBWADcAWQBnAEEAXwBBADUAcQBnAHoAegBlADQAegBSAGQASABPAGIAegBaAFEAUQBVADcAQwBMAE0ASQBnAEoAYgBEAG0AVwB2AGkAQwBuADkAMQBpAGIAeQA2AHYAUAB6ADEAMABmADgANgB4AEgAOAAxACYAcABvAHAAdQBwAHUAaQA9ACYAcAB1AGwAbABTAHQAYQB0AHUAcwA9ADAAIgAsACIAZAB1AHIAYQB0AGkAbwBuACIAOgAiADAAMAA6ADAAMAA6ADAAMAAuADYANAA0ACIALAAiAHAAZQByAGYAVABvAHQAYQBsACIAOgAiADAAMAA6ADAAMAA6ADAAMAAuADYANAA0ACIALAAiAG4AZQB0AHcAbwByAGsAQwBvAG4AbgBlAGMAdAAiADoAIgAwADAAOgAwADAAOgAwADAALgAwADAAMQAiACwAIgBzAGUAbgB0AFIAZQBxAHUAZQBzAHQAIgA6ACIAMAAwADoAMAAwADoAMAAwAC4AMAAwADIAIgAsACIAcgBlAGMAZQBpAHYAZQBkAFIAZQBzAHAAbwBuAHMAZQAiADoAIgAwADAAOgAwADAAOgAwADAALgAzADQAOAAiACwAIgBkAG8AbQBQAHIAbwBjAGUAcwBzAGkAbgBnACIAOgAiADAAMAA6ADAAMAA6ADAAMAAuADAANQA5ACIAfQB9AH0AXQA=</StringHttpBody>
+    </Request>
+    <Comment CommentText="Click on sign in button in login page" />
+    <Request Method="POST" Guid="5b892f82-492e-437e-bef2-68e952323ce9" Version="1.1" Url="https://msft.sts.microsoft.com/adfs/ls/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://msft.sts.microsoft.com/adfs/ls/?client-request-id=e84388ed-afb9-4ad0-bc1d-22425f7feca4&amp;username=sesd365%40microsoft.com&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81&amp;popupui=&amp;pullStatus=0" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client-request-id" Value="{{QueryStringParam5.client-request-id}}" RecordedValue="e84388ed-afb9-4ad0-bc1d-22425f7feca4" CorrelationBinding="{{QueryStringParam5.client-request-id}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="username" Value="sesd365%40microsoft.com" RecordedValue="sesd365%40microsoft.com" CorrelationBinding="{{QueryStringParam6.username}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wa" Value="wsignin1.0" RecordedValue="wsignin1.0" CorrelationBinding="{{QueryStringParam7.wa}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wtrealm" Value="urn%3afederation%3aMicrosoftOnline" RecordedValue="urn%3afederation%3aMicrosoftOnline" CorrelationBinding="{{QueryStringParam8.wtrealm}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="wctx" Value="{{QueryStringParam9.wctx}}" RecordedValue="estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81" CorrelationBinding="{{QueryStringParam9.wctx}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="popupui" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pullStatus" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam10.pullStatus}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="page_hint" Value="pf" RecordedValue="pf" CorrelationBinding="{{QueryStringParam11.page_hint}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="UserName" Value="sesd365@microsoft.com" RecordedValue="sesd365@microsoft.com" CorrelationBinding="{{FormPostParam23.UserName}}" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="mq3d&gt;f7^\f#s65tMy+" RecordedValue="mq3d&gt;f7^\f#s65tMy+" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="AuthMethod" Value="{{$HIDDEN1.AuthMethod}}" RecordedValue="FormsAuthentication" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="5456cef3-27ea-43e5-bd22-cad5d8995518" Version="1.1" Url="https://login.microsoftonline.com/login.srf" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://msft.sts.microsoft.com/adfs/ls/?client-request-id=e84388ed-afb9-4ad0-bc1d-22425f7feca4&amp;username=sesd365%40microsoft.com&amp;wa=wsignin1.0&amp;wtrealm=urn%3afederation%3aMicrosoftOnline&amp;wctx=estsredirect%3d2%26estsrequest%3drQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81&amp;popupui=&amp;pullStatus=0&amp;page_hint=pf" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="wa" Value="{{$HIDDEN1.wa}}" RecordedValue="wsignin1.0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="wresult" Value="{{$HIDDEN1.wresult}}" RecordedValue="&lt;t:RequestSecurityTokenResponse xmlns:t=&quot;http://schemas.xmlsoap.org/ws/2005/02/trust&quot;&gt;&lt;t:Lifetime&gt;&lt;wsu:Created xmlns:wsu=&quot;http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd&quot;&gt;2017-08-18T21:06:29.224Z&lt;/wsu:Created&gt;&lt;wsu:Expires xmlns:wsu=&quot;http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd&quot;&gt;2017-08-18T22:06:29.224Z&lt;/wsu:Expires&gt;&lt;/t:Lifetime&gt;&lt;wsp:AppliesTo xmlns:wsp=&quot;http://schemas.xmlsoap.org/ws/2004/09/policy&quot;&gt;&lt;wsa:EndpointReference xmlns:wsa=&quot;http://www.w3.org/2005/08/addressing&quot;&gt;&lt;wsa:Address&gt;urn:federation:MicrosoftOnline&lt;/wsa:Address&gt;&lt;/wsa:EndpointReference&gt;&lt;/wsp:AppliesTo&gt;&lt;t:RequestedSecurityToken&gt;&lt;saml:Assertion MajorVersion=&quot;1&quot; MinorVersion=&quot;1&quot; AssertionID=&quot;_ed1dc724-ffac-4c12-8acb-cc75e5f53af5&quot; Issuer=&quot;urn:federation:MSFT&quot; IssueInstant=&quot;2017-08-18T21:06:29.255Z&quot; xmlns:saml=&quot;urn:oasis:names:tc:SAML:1.0:assertion&quot;&gt;&lt;saml:Conditions NotBefore=&quot;2017-08-18T21:06:29.224Z&quot; NotOnOrAfter=&quot;2017-08-18T22:06:29.224Z&quot;&gt;&lt;saml:AudienceRestrictionCondition&gt;&lt;saml:Audience&gt;urn:federation:MicrosoftOnline&lt;/saml:Audience&gt;&lt;/saml:AudienceRestrictionCondition&gt;&lt;/saml:Conditions&gt;&lt;saml:AttributeStatement&gt;&lt;saml:Subject&gt;&lt;saml:NameIdentifier Format=&quot;urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified&quot;&gt;mCDZDPnsFkahPk3qsxAhbg==&lt;/saml:NameIdentifier&gt;&lt;saml:SubjectConfirmation&gt;&lt;saml:ConfirmationMethod&gt;urn:oasis:names:tc:SAML:1.0:cm:bearer&lt;/saml:ConfirmationMethod&gt;&lt;/saml:SubjectConfirmation&gt;&lt;/saml:Subject&gt;&lt;saml:Attribute AttributeName=&quot;UPN&quot; AttributeNamespace=&quot;http://schemas.xmlsoap.org/claims&quot;&gt;&lt;saml:AttributeValue&gt;sesd365@microsoft.com&lt;/saml:AttributeValue&gt;&lt;/saml:Attribute&gt;&lt;saml:Attribute AttributeName=&quot;objectGUID&quot; AttributeNamespace=&quot;http://tempuri.com&quot;&gt;&lt;saml:AttributeValue&gt;mCDZDPnsFkahPk3qsxAhbg==&lt;/saml:AttributeValue&gt;&lt;/saml:Attribute&gt;&lt;saml:Attribute AttributeName=&quot;PersonnelNumber&quot; AttributeNamespace=&quot;http://schemas.xmlsoap.org/claims&quot;&gt;&lt;saml:AttributeValue&gt;mCDZDPnsFkahPk3qsxAhbg==&lt;/saml:AttributeValue&gt;&lt;/saml:Attribute&gt;&lt;saml:Attribute AttributeName=&quot;ImmutableID&quot; AttributeNamespace=&quot;http://schemas.microsoft.com/LiveID/Federation/2008/05&quot;&gt;&lt;saml:AttributeValue&gt;mCDZDPnsFkahPk3qsxAhbg==&lt;/saml:AttributeValue&gt;&lt;/saml:Attribute&gt;&lt;saml:Attribute AttributeName=&quot;authnmethodsreferences&quot; AttributeNamespace=&quot;http://schemas.microsoft.com/claims&quot;&gt;&lt;saml:AttributeValue&gt;urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport&lt;/saml:AttributeValue&gt;&lt;/saml:Attribute&gt;&lt;saml:Attribute AttributeName=&quot;passwordexpirationtime&quot; AttributeNamespace=&quot;http://schemas.microsoft.com/ws/2012/01&quot;&gt;&lt;saml:AttributeValue&gt;2018-08-27T00:05:22.819Z&lt;/saml:AttributeValue&gt;&lt;/saml:Attribute&gt;&lt;saml:Attribute AttributeName=&quot;passwordchangeurl&quot; AttributeNamespace=&quot;http://schemas.microsoft.com/ws/2012/01&quot;&gt;&lt;saml:AttributeValue&gt;https://sspm.microsoft.com&lt;/saml:AttributeValue&gt;&lt;/saml:Attribute&gt;&lt;/saml:AttributeStatement&gt;&lt;saml:AuthenticationStatement AuthenticationMethod=&quot;urn:oasis:names:tc:SAML:2.0:ac:classes:PasswordProtectedTransport&quot; AuthenticationInstant=&quot;2017-08-18T21:06:28.740Z&quot;&gt;&lt;saml:Subject&gt;&lt;saml:NameIdentifier Format=&quot;urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified&quot;&gt;mCDZDPnsFkahPk3qsxAhbg==&lt;/saml:NameIdentifier&gt;&lt;saml:SubjectConfirmation&gt;&lt;saml:ConfirmationMethod&gt;urn:oasis:names:tc:SAML:1.0:cm:bearer&lt;/saml:ConfirmationMethod&gt;&lt;/saml:SubjectConfirmation&gt;&lt;/saml:Subject&gt;&lt;/saml:AuthenticationStatement&gt;&lt;ds:Signature xmlns:ds=&quot;http://www.w3.org/2000/09/xmldsig#&quot;&gt;&lt;ds:SignedInfo&gt;&lt;ds:CanonicalizationMethod Algorithm=&quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot; /&gt;&lt;ds:SignatureMethod Algorithm=&quot;http://www.w3.org/2001/04/xmldsig-more#rsa-sha256&quot; /&gt;&lt;ds:Reference URI=&quot;#_ed1dc724-ffac-4c12-8acb-cc75e5f53af5&quot;&gt;&lt;ds:Transforms&gt;&lt;ds:Transform Algorithm=&quot;http://www.w3.org/2000/09/xmldsig#enveloped-signature&quot; /&gt;&lt;ds:Transform Algorithm=&quot;http://www.w3.org/2001/10/xml-exc-c14n#&quot; /&gt;&lt;/ds:Transforms&gt;&lt;ds:DigestMethod Algorithm=&quot;http://www.w3.org/2001/04/xmlenc#sha256&quot; /&gt;&lt;ds:DigestValue&gt;M4VhIhKlX/Jy6BNKLkUN2oqa9KujAU1ZwKtxgRPaSxg=&lt;/ds:DigestValue&gt;&lt;/ds:Reference&gt;&lt;/ds:SignedInfo&gt;&lt;ds:SignatureValue&gt;CyAigWqR1T7ELfT8beZ8XUUN9MHy2WtcdA0DiLnc2ht5PyW2h/S05ph14qPF0rFi/0wfUmWGQEBCVp1b0i2V0s79lAe4ptuicMdJJL0hNlu/Crc2EoGf7C+AlPxIQBQ+MjiSmlA2qu0IL1Esy6CFGrm9TuqRSOfqQ6pHntm7P10NJcrNZgGZzApMOMUJzHTo13kJs6qPWpJauUv7CX+y1PUQQ08C0if0kQk5UtoLSjxnxLuZVOknLza6dUfsMD/fPlm+b8T4ETfZFr6Bv9/aCdcPK7t91L3VVGYgd2koFgwkV+dcnV6iF0VgSsRn+P/DNdB0rdL/EkMmQ0eC0i5T3XuxWaZ7Az6jqqRGS4acDskAbyzGFAUJHaiyAQsqYV6yw8krYAGZ7/yQvzvECyrA40hRsDvylSEDXitcPpJn/WLc19FF8h4BQcXQA0cz2E0zI1hE1Vj/AJ2o0UGTsZvTZdZzwjBQ7X9moUmX1us9boEt9iO7s5vkijPE5OsULumlln+v51Wsxau1wf93IbHrcDe1o6ll7atuBl6MhK0guY/BZK+uFL3sqMOlNt0so1m5zYjik7suTAB7D76caynFrtxtjoEkZDqz9dLFDrE4d0XKbIBnwz/xA/G5cIAHWY688AL1JLTN8TAoNxsNgOEURyqMOMCL2yijANtX0QXv+KM=&lt;/ds:SignatureValue&gt;&lt;KeyInfo xmlns=&quot;http://www.w3.org/2000/09/xmldsig#&quot;&gt;&lt;X509Data&gt;&lt;X509Certificate&gt;MIIFQTCCAymgAwIBAgIQYvo/wNRpcL5JZi8e/Z4hBzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDExZtc2Z0LnN0cy5taWNyb3NvZnQuY29tMB4XDTE0MDIyNjA4MDAwMFoXDTM5MTIzMTA4MDAwMFowITEfMB0GA1UEAxMWbXNmdC5zdHMubWljcm9zb2Z0LmNvbTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMsKK87jKV6UdjZWE5gu2lUecEJeBH35aEG89U9fAXqRIbsmkAgnZAqtmD3dw4W0edvOMW0YxLejvHpxrrei4Hc3KOYczFaiJGOxeir6Fymk5cOJ0x3ioJGSCn/X0J0vka6sUijwUlFzaqOyTO5YP23AzSu2a39SUxBCVNqgkGrbjMp4xl1LP6rYrNc1QG/aBGvT0od0oXF4Hy5uiCxqq49Wb+QjCyJ76+1kzkWHTK18r8vOG9GxfWfNeshT9W9XoT9ChgRcxIHt/Y2ZUrOT86ldpakld58gTq1E0l5jho3CZPAnZjnwBhYv9bUgsgwHUU29Ceig/iqdjUDzS50F4pn2pcncoWGmrQP3hOEvJRCs0BWz6+VW/ATV5TGknsLDfq89c5b69haZ3fiDQmU+RZQBIsLEcrRs3Vyld++rmM7OdfZ4CAbo8l3F4ONpHczWfNKhGnor4GH0vC6G5gR3otWCdM6bcrNCYjm4PEVaF0I5+94PvJ2SkaGL4k86u+Ns4OpFLGawC5D3bq0SPMgsUWbXzq4VXq946fewWLV4Jh4mvRkVdsb1egk78rzQdpeqfiq9Ax6W6wRLCIFUiicymITQw/mn646OvwR2mTMc2M+BfW9a35MwfZfyMG/PdZc7nl2Alvuiw1Wk6M3C2xcS8Hpu9unnacXujRr/FbgnaKwnAgMBAAGjdTBzMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATBSBgNVHQEESzBJgBBsOlmxcrgqKZ1x+s8zuEDRoSMwITEfMB0GA1UEAxMWbXNmdC5zdHMubWljcm9zb2Z0LmNvbYIQYvo/wNRpcL5JZi8e/Z4hBzANBgkqhkiG9w0BAQsFAAOCAgEAQbiCZJWFH9zaGaPlT77Jq9bWoH6fqZRrNIDuVXM7h+g7E8Xj5Demi16WrRSTR8Ff1uNV0n5tdbLu4C9rEU4RrZjFOJXGGsQZD85y8Jq3tcZ6RZSU6ie3tzvpl5Yhe0o1xfuUvI43VxJWFzW7LHzHyzoDeFNhSuplWfGkQfdjs9yGLTYflIDVCigXv94Wv949HckiG1+PST9ai9jST6NCkeqElm5zoZHxo+haYIRMma4lL7/AO3uYhey5bKYyIHyWTAZcJBKqO2RrWuOtZWthK/gL0yTeGrGXFQvHbfUwEA/lBdUka/x8m59hzSCS2c0f/GZbrBGq6mOrl4NSrJSck4KJnQDbdYzyP2kIVWwjlYMNbFWXE0e2lxm6T28Znhh0wtqrBDyQIxDFpt/bdw9I5OsXmXvjRYlVXP1gmHebuhL9wA3A9BKUaTNf2BTfvWdYnBwbRq98vB4RSAwWRLjv9bizB9JkmMUSmPS9Z5juPMmkbTpcmn8RUUPLGDpuFYMB0dXpGtG+oJ40wHeYZCvfBU1tuXuB+RTxkPsXzF4WEf6sei0VCgs+ir0mULF9L++Bc0INn9VpZoOpDE9pX7jMn9jkutClaxVOirysvYcOAy092MHo3uR6opH9U9vzWJrQULxPOdT+GVwLJ2ZgSmYC14tsr37vbC8WAD5E1zyfGPU=&lt;/X509Certificate&gt;&lt;/X509Data&gt;&lt;/KeyInfo&gt;&lt;/ds:Signature&gt;&lt;/saml:Assertion&gt;&lt;/t:RequestedSecurityToken&gt;&lt;t:TokenType&gt;urn:oasis:names:tc:SAML:1.0:assertion&lt;/t:TokenType&gt;&lt;t:RequestType&gt;http://schemas.xmlsoap.org/ws/2005/02/trust/Issue&lt;/t:RequestType&gt;&lt;t:KeyType&gt;http://schemas.xmlsoap.org/ws/2005/05/identity/NoProofKey&lt;/t:KeyType&gt;&lt;/t:RequestSecurityTokenResponse&gt;" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="wctx" Value="{{$HIDDEN1.wctx}}" RecordedValue="estsredirect=2&amp;estsrequest=rQIIAZWTPY-bdgDGj_PllERVE1UdulSKokxVsQEDfzjpVAGOwdiADT4wLIhX82JeDv6cbZauHTN3bCtVilRV6tRW_QLNUN2cTxBV7dKpY52P0OUZHj16luf3fDbAh_jVC59hyNDHA9Rn_RAlSRCjrE-EaBhgdATY2APAbz56_PTvr4R3v_x4L__26XPe_fKv714jnycQ1u3VaFSkRVtu47Lz4LBIg6ZqqxgGTVFXDfR27TCoitHPCHKPIO8Q5PV5S4_pMUMzACexMY0BClBDpQ9TR5R3jjiDTuaktoFhylohF5acO2sb2tYMs7MkcQonUfsVqVr23snkxO45qE6cVDnl1UmOL9b52LFOHdYNcfIzTXQSpd9Sb8-faFwHE-K9VE3aR_-cP4qrpnDrqoVfD74faHVUzkKhKssogMP3saiEaeDBtCqXTVVHDUyj9hrKnqRqaYKr_Lzj2UDa9QuhYzkw3uuiKWVL15SUxlG7eS7zSz6ZegSfraaKMJ-YZolOWdTtptbidqx6WGLhq5fV0rjFqZlXbS1QSonsGuteZhR7uciKaOWO6-K47ztarfGYzsoxRZSG11ouiRoJcThEQa1mMpdxdgAhanJuP6ll3tqplLjbhz5aspUw5mODMG7aoOuS8ta_O6gUVRRwOjtsjs1BuXP6OLNtr58fJEPbFuHL-EYHfFS0uwIGUo0qZra2rcLE6E7G0qNGiRnPlVXfo4vJHOOWkqYzdk_GdL_nnFygLF3W8lpRjqKxEqebTN3Qy5ah1p1xhOy2P9zmpE5neT6hVCqpdQMGG8bT130peLlrbksAlRWjkOh2vjBTYlro9lRKNtIKHjcT8qfBC0DELMP4McrQMY6SuHciFvd8lAhBEGI4HvokeDP48DRZmYbP6qaK0110f4H8efEBNrh6-PDx07NPzp6d_XuBfPPgBPaT7ovr32cfqz_8cfft87fi2ZsHo-Co-qO1AnV7YgA_A5qgzze4zRdHObzZQQU7CLMIgJbDmWviCn91iby6vPz10f86xH81" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="14aead8c-6e92-4f0d-a02e-512fe04a85d4" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="dd7f80e9-056f-4bbb-8c84-df272e07b3cc" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUIFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="63de612f-bcd2-41f1-9f9e-5e895dc11fbd" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-LightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3edcb4a0-662b-4184-9061-a009e0947d8d" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemilightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="d995feb6-1465-40f6-9644-8c22c406b3d9" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemiboldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="8e5abc5a-6849-40e1-863c-28630e0b2fc0" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-BoldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1e93f440-e4ea-41c9-97a6-4cca34a5f64d" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/MWFMDL2.woff" ThinkTime="25" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://login.microsoftonline.com/login.srf" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4.fnid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?fnid=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="code" Value="{{$HIDDEN1.code}}" RecordedValue="AQABAAIAAAA9kTklhVy7SJTGAzR-p1BcyOQoyAVPCgCcg5z3bzzqEOSG6f6KMc4p4T12ZRpaomT381KSZqLZS9ouNXeeVE_IKkboCN10kvmLAt3gwH907b8i1GjxdkYgrCQlnt7ALILTJ1T5zEdhWec32yQY6HX6jKUu_k_orwhifRyJxvWCZM9JALaeKXX0u4ncLWDzRE_k69vfPYzy6SVIx5240WMQSjk7IlnZ5x3vOeQhBJ4KShjj3SUXtDtCzb_W2G84xrzq2WFid3gKSVm8J06O1C6fu-P7uNDB9apF7cfFGvY7wBulDps2etjDSoTxzybSvVMRy3Zs2IziljwWCdAPn3q3mD-sssA_1RIHSDDOyyJsDuFLo7F3pOkbGJaY2GCPTGKfM3PDRdbr7gPtzxAXlrpw-srQY1CEbRy6dqo5yFB3_Dk6QdrWIgBx2kQljm6SIX-0AUfAwYPI5PAH1V1TFm5b9xOyDuRFOJvf_bJSIwex2D0TVY9VWNhLwQx78xQrruY_4_Px4sG9RlpE_thL0gPDZEwyBYkx_N1Crf3Sm0En_UO4E9sRhyFmgt5K7W2xWtxbM5ViV-CWfZ170KzoLLPpb4IsxW5k6fTG2mH7iJx_ZCHWuDKoUCauZ0rVr5oVeDs3UTz5pRVx69AUGofw337WAqRFpV2UqkHCMEOguYQn69KWK7OoToAfm6i5NSMXmmP1kg4wyVOYV_3ujP0mSls-MbUZHeYxc7dhvXITbNrNYAlut5vrHTAyx-lqhKP4qXeHB1Vytx7WJ2w2ilWJf5EnnP5GhkEFZ2DJJseBm3aE0VshYMxxBZhOhMMTMLfliBO7JvjPMevS2BXATTbg8YMEIAA" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="id_token" Value="{{$HIDDEN1.id_token}}" RecordedValue="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IlZXVkljMVdEMVRrc2JiMzAxc2FzTTVrT3E1USIsImtpZCI6IlZXVkljMVdEMVRrc2JiMzAxc2FzTTVrT3E1USJ9.eyJhdWQiOiJiODg0ZGIxYy1iOWJkLTQ0N2YtOWIyZC1kYzA2ZTc5ZmE3N2IiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC83MmY5ODhiZi04NmYxLTQxYWYtOTFhYi0yZDdjZDAxMWRiNDcvIiwiaWF0IjoxNTAzMDkwMDkwLCJuYmYiOjE1MDMwOTAwOTAsImV4cCI6MTUwMzA5Mzk5MCwiYWlvIjoiQVNRQTIvOEVBQUFBSkdHdXNwZGViSlRLbTJOSXZybXI0TnlGRXhmeXZUUjh6OGhEZXA2bmJmbz0iLCJhbXIiOlsicHdkIl0sImNfaGFzaCI6IkpnSUFNREVVUkVubkp3bWVseGM0aFEiLCJnaXZlbl9uYW1lIjoiU0VTSVQgRDM2NSBBZG1pbiBBY2NvdW50IiwiaXBhZGRyIjoiNTIuMTkxLjE2OC4yMTAiLCJuYW1lIjoiU0VTSVQgRDM2NSBBZG1pbiBBY2NvdW50Iiwibm9uY2UiOiI2MzYzODY4NzE0MDM2MDc1NzUuTXpkaVpHSmxaR0l0WmpaaVlTMDBNVE00TFdKa1pUWXRZV0kwWWpoaFptWmhOelE0TldZd1pqSmhZekF0TkRaaU1TMDBORGsxTFRrM1pXSXRaV1UyTkRaak9HWmhNemc1Iiwib2lkIjoiMmM5OWE0ODgtN2ZmMC00MjEzLTg4ZTAtNTNiYmUwOGI5MDc3Iiwib25wcmVtX3NpZCI6IlMtMS01LTIxLTIxMjc1MjExODQtMTYwNDAxMjkyMC0xODg3OTI3NTI3LTI3MTQ0Nzk2IiwicGxhdGYiOiIzIiwic3ViIjoibUI2QzdFSlBQd3lqT1Eyb1hsZW9kMGpWSjZCZGw4dFdRb19odmxMdGtCMCIsInRpZCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsInVuaXF1ZV9uYW1lIjoic2VzZDM2NUBtaWNyb3NvZnQuY29tIiwidXBuIjoic2VzZDM2NUBtaWNyb3NvZnQuY29tIiwidmVyIjoiMS4wIn0.SdrJOwqtj1O3Ixl7ppOjeQNxfINI-ZJCOzHOGqbGaASAh30uRRg39aG28pODDHzJGQBHXmPiDgP8jYTetNf3myMbMpidz9Kl4DyQrRIFo3TRnV_yi7KAFqd95LVnBxkJsD3LLSM4trrxu3UTmDKT_XKZ7INqmug99gStjz8N4VuYgfAlJLtmm34n1PtFuZG_iQYS-wFsEPKhVJbW8_U6F1Or9AoxzHSM4G-uZZnZi3wFqkYkIT8n54WPtzr7tTnjo-fB3l75CPjf0PDmxcpNk72gP0wmsoc07kp4Wf6B7XsT1tDNOWg2er6xFdFArtI9oCyAX5PMnp7qmKFWnqmalQ" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="state" Value="{{$HIDDEN1.state}}" RecordedValue="OpenIdConnect.AuthenticationProperties=tJaHNOih1NBKuB9cHlzLCu9A73wRGVHjP_VHMrZNuKkJBPBhFa2BjQFMCKDVVn-F9-_uFWLq3Na0hW1QEoPSq15IaogW7nHhJ_STzJ8MYPLjmeQ_3pmywzu6Np1f6jn352nSasW_4-Sh2xxecpNjJAjAYctt-VA_zDpJBWlN5Glwdb-n9oC3BfS2SUscuuhnqbvxN55mmtFIxXyrxMvZzfjYYazKxHSOgmdEfUR7BemslmtcHp-MVjTYWmV06uJ0iyO5GjBAnozz-LDK0APHOR8Yz4f6zwAZkC5WRJOkpMMyGSQGFXjNX6Ps85TuSyt9gzxqk4R6jkkD5N5hpRStcX8aRTznCak_Vgn7tMQ8M4-gKLVi2FmRYFHhXHQtyXD4" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="session_state" Value="{{$HIDDEN1.session_state}}" RecordedValue="be87e583-9262-45f2-9626-01abddc9c3a6" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Comment CommentText="Click on View Your Profile link" />
+    <Comment CommentText="Click on View Your Profile link" />
+    <Request Method="GET" Guid="4b3d5413-8a95-4787-835f-bbf5961b9ee5" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/profile" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="d869dbea-8291-4b22-9696-7de02db54cb5" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUIFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="1db1e31b-6a02-4354-8bb7-efbb14ac6030" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-LightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f59803b8-8d3b-4422-ac82-7a8064375458" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemilightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="20319c93-6cbd-45b8-9ebc-d03f7318fa50" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemiboldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="dc157318-9fb9-48d6-8b13-a00170dbec59" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-BoldFont.woff" ThinkTime="25" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam3.fnid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?fnid=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam15.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$lastname" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="lastname" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam16.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_dob" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="mims_dob" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam17.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_name" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="mims_countryofbirth_name" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam18.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_name" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="mims_countryofcitizenship_name" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam19.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress1" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="emailaddress1" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam20.__EVENTTARGET" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ame=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; val" />
+            <RuleParameter Name="Index" Value="53" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam21.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_stateus" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;WA&lt;" />
+            <RuleParameter Name="Index" Value="73" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam22.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$telephone3" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; /&gt;&lt;" />
+            <RuleParameter Name="Index" Value="11" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="fnid" Value="0ee0b8dd-c054-e711-80f4-3863bb3630a8" RecordedValue="0ee0b8dd-c054-e711-80f4-3863bb3630a8" CorrelationBinding="{{QueryStringParam4.fnid}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="Click on EDIT button" />
+    <Request Method="GET" Guid="75aacb3c-7cb3-413a-b31a-4dec835b81dd" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c7907aef-2725-4a3b-97d5-b6dafa942d61" Version="1.1" Url="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot" ThinkTime="181" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Comment CommentText="Update field and click SUBMIT button" />
+    <Request Method="POST" Guid="2c611f69-7da7-4390-8422-dca0c97bad75" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/profile/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="cea601bd-b147-424d-9724-231a61713c03" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUIFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3e8dd3fc-9153-4988-ae3d-8b209f58cf29" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-LightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="12dc63ee-fa9a-499a-934f-d3e8781cdb05" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemilightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f6a20312-eaf9-4c40-8c08-17707bb70b7a" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemiboldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="edfa16c7-c786-4751-99a3-38d3e6a9a8b5" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-BoldFont.woff" ThinkTime="25" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam2.fnid" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?fnid=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam8.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$lastname" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="lastname" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam9.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_dob" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="mims_dob" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam10.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_name" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="mims_countryofbirth_name" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam11.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_name" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="mims_countryofcitizenship_name" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam12.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress1" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="emailaddress1" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam13.__EVENTTARGET" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="ame=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; val" />
+            <RuleParameter Name="Index" Value="53" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam14.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_stateus" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="lue=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;&gt;WA&lt;" />
+            <RuleParameter Name="Index" Value="73" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="fnid" Value="0ee0b8dd-c054-e711-80f4-3863bb3630a8" RecordedValue="0ee0b8dd-c054-e711-80f4-3863bb3630a8" CorrelationBinding="{{QueryStringParam3.fnid}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$UpdateButton" RecordedValue="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$UpdateButton" CorrelationBinding="{{FormPostParam20.__EVENTTARGET}}" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="2qtnjHxebvgvXYZNk1Co0MTk2t7Gj3iUrdybXDtah0gUE2XlnGmk9nyNjNEtR+wFKfOp7fZXoqil5I2njBbiwFLxpo3+Xj5ncjSUkoqJd+Q=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="1128FCF4" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="ODC17IoGTRXrb3Sgg+iZQOqieUmM5mSRZmG+lzLt6czY+Ki8/mcdc2wNPsmv1DH5blPEnftjcR/INA39RajNL6osp4wNb145Yy66y28SKNmtpc2bA4vv6yDQCQcCjZF4aTmovnITGcVqOcuNeJTYpTxwiHR1ThtNDGspYa1+nH2uO+6wNPcxPQLTwO3T9Om+fgoVRuhnLbLMUdr8J9PXQscaLUCqgZl/5Vqs+3u4IATTxx0CWoEX5eT9C2mSGZcIwJDDEsfJsSTjoH3SmwoBW/1E2Nrr7KwPAegP7Exj7KcJMT5WpaijGl7E381gi7slAhmJN6PWM/8KehEYoN2ixFDFPh9hkZ2F5jy/suWAEbJOrLN+q0ZHzvWxC3l4AN5ZZYvzFKAW/6sioJPKQatCIOSMqALQAfDqG4mFUOPgoxNw3GqkD6DSgddWKlngOQiVcL+ncX0tXZmCiAhuCMh0hv0E9Hf20FWJiUTqHwm3z+CIsxd7qELJZYGEyzyYsG4WhNntSfci9fQB88QfdUog9vVF+qjLkjxzKXF2VC8PM4dbZ0RM1bz9+KAED0tDTYR4eSxX9txxL6lsfxqJ82PYu+pNiPVnmExMb1VXO9WnzR5tT/mwZs8ZdjBpGRZLbKfZOnTddCfBmVg2x1WcvbZHSv7PPeBGb5u5yfB5Wpkq8sw4T6WLbTjCYZy+fXSFBnIC8cTe94kWCVjxy3ax7UJ5lsJSmCyQuELYBgwisQo9PBjW3H7A6SxKYtGJiKK+wws1JVip/u9sjLTTSeVSY0nQ8l17OrZ8NSvJJWDViy7CmhdCqv7vdgQXYZcqRaYouyhJi+ypydIQyT15hISn2YDeJJGHOtF9SzUvJLngPY5791YrXOk7dXxkFtNFfx/lBf5ITE/lCM9wVw8qWhaoytpn/n2kHoQMC3AEH09JP+Q1kjuRs0XI5K6ghZY1MOHMa7rr9aAeg2BtkmIXPRh3nMB6MouB7KRjXAyAZ0f1IahCFrbxg5rSkJ9PuUyKjHwPUvkQrZ9qONdVF+q6NOHQchOmvJeuqavntiZga4hEAW0qniVdiK/kCLGXL2zpS68mQeYZIuv3/8BJWhjXD+Jf0Q+5cmWTgFgOa2Y9ClIq/FU7nTpqtVahiXzdZrrW+A+B8oL3AiBfA76x1x3wM1NMq/G/B3PQXZnRi8bG8KfXJXWRSZKgpExlls/uzG4oF6kOSz5HXMzTvJOSiR0H6DxW+i/wsQD8IcOm6WRx13KHN88A9OfFPAJrQOZSQiga52NMPu2R6RSH6C2F2/mimlvIXNcPzsd/FdZ+R053cRNdarLeaxDuPYlWlYHPpf6gy0dz95/zqC5i4Uw5YgzLF5RINS1acHRmgVzzEaIo3N+n5cAlKqa29fjw05JeFMIM+PHDOnH25ZlBS1EoohV2IjZ5PS3KX/aFIwa9TEYjByTymqRtyXZ1k4yKZJMz7gn6/D5JJGt1kZhBuRYcESU64wqxITo2j+Fc6awvBr4Eb7HS/0pe3vB23KsL7nL16NUsJlN4sUaAo38ehn0shQm4dZGrlL3WSxwNrIosROHQnrT0+YyueBt+zLolAJaoqga7M/V+4HCVOBAfxwipXy0e7FPrN53i/naxM89IyndICKU4C6jBlWSo3d9fewVNYPs88IiOtNth5ec4TLL+Yf0V6DA/E82vOfrT9wHcLGx9r//UmcWMT8wHaoTmIJOA0rJt+jeYWl8HIS50h+CG9T8qRTIXRM98I3XB11uSG5a/R9EyeH/lNVIK3ECrEf0mdvQ1Vd0xetex/Cf16Irp/gLr8OwedSEJIyArHBdUcMbvBnnA3ZXWxi8j0xeVcUrReWuRB4o8MbFAkDHcWfcVzSid1uk8hDk25w==" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityName" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityName}}" RecordedValue="contact" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityID" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityID}}" RecordedValue="0ee0b8dd-c054-e711-80f4-3863bb3630a8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityState" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityState}}" RecordedValue="0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityStatus" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityStatus}}" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$firstname" Value="SESIT D365 Admin" RecordedValue="SESIT D365 Admin" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$middlename" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$lastname" Value="Account" RecordedValue="Account" CorrelationBinding="{{FormPostParam15.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$lastname}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_preferreddisplayname" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_Value" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_Value}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_SelectedIndex" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_SelectedIndex}}" RecordedValue="0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_dob" Value="1990-11-18T00:00:00.0000000" RecordedValue="1990-11-18T00:00:00.0000000" CorrelationBinding="{{FormPostParam16.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_dob}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_name" Value="India" RecordedValue="India" CorrelationBinding="{{FormPostParam17.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_name}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth}}" RecordedValue="a46660e4-7c96-e111-8e1a-002dd802fe4e" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_entityname" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_entityname}}" RecordedValue="mims_country" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_name" Value="India" RecordedValue="India" CorrelationBinding="{{FormPostParam18.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_name}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship}}" RecordedValue="a46660e4-7c96-e111-8e1a-002dd802fe4e" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_entityname" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_entityname}}" RecordedValue="mims_country" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry_name" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry_entityname" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry_entityname}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_stateus" Value="100000047" RecordedValue="100000047" CorrelationBinding="{{FormPostParam21.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_stateus}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$address2_line1" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$address2_line2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$address2_city" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress1" Value="sesd365@microsoft.com" RecordedValue="sesd365@microsoft.com" CorrelationBinding="{{FormPostParam19.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress1}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mobilephone" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$telephone3" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam22.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$telephone3}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="f80b3fc9-fc3c-47c4-aefe-8cc07d1d65ae" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/fonts/glyphicons-halflings-regular.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="37c035fe-6272-48f5-a774-cfa99f0e4d37" Version="1.1" Url="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/fonts/glyphicons-halflings-regular.eot" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="a7e99063-f70c-4d9e-9242-0c9d1de3148b" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/profile/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="72514dfe-572b-47ba-a440-8c6122cb63fa" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUIFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c00784f4-30a2-44d2-8022-098b6eb2cb07" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-LightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="c3dbd8cc-ea46-4532-acb7-a7d31c0fe8c7" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemilightFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="354534e0-1d6b-47f6-9802-882b11743053" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-SemiboldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="650294f7-6cf2-475c-b879-7b12c2fa934c" Version="1.1" Url="https://mimsngfnuat.microsoftcrmportals.com/SegoeUI-BoldFont.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="https://mimsngfnuat.microsoftcrmportals.com/profile/?fnid=0ee0b8dd-c054-e711-80f4-3863bb3630a8" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="fnid" Value="0ee0b8dd-c054-e711-80f4-3863bb3630a8" RecordedValue="0ee0b8dd-c054-e711-80f4-3863bb3630a8" CorrelationBinding="{{QueryStringParam2.fnid}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$UpdateButton" RecordedValue="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$UpdateButton" CorrelationBinding="{{FormPostParam13.__EVENTTARGET}}" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="WvunZKXPlcxJDw4C14EFVHNwtMifcrMsbLk1tix6nYwTbeWABDgCqmfPAM9qraKCFODqIUEo8+1fL35DW9Sb4FdgEonbMHNswkN5FwLE8mM=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEGENERATOR" Value="{{$HIDDEN1.__VIEWSTATEGENERATOR}}" RecordedValue="1128FCF4" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATEENCRYPTED" Value="{{$HIDDEN1.__VIEWSTATEENCRYPTED}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="Bfyrsgm9mJtwEEk69qEdzmEGf2/lKizf4sPwD2335bAcniocdCxLO2Y9gpTuAIREyWUWjXOJyxcKniBUjEgMHpHfszXsb1fsm5xc9rsTkhK93Oa+n6yXbdDFLDvR5KBHSUbHTKXfLsJ95OulQrrh6BGWJI8jkFfLvrPYQu2uVzr53uanS7VO8eGq+TzhkVrl9EH8pGk8qLfMXcdJjueX5lp8acSN69/8yrqNv9XGdbTnF+OgAFvjAg8MrspMvbad2ynxs6Rk0Onq9zsnItRLhl0LWPvGBGei4KQOhVIP6VVrS7KsFS8dikRjkrukcXEdAd+70NuRt1liMb0SccTeS3HpbuHL7lvxGgQq0NSCjAFJkHYLctS064LtCwPG0HFfWXeLdNAYV9Wq2W8ExinkoloOgFkX5JF0kWHUUGjcwfVoRSNFZhP/55b6c9Tw3JLgQ7fGTGaty1ImTK3W2gFKS16kuhOp8rzYaQ8Z68gpQMAI7dueSUV7DI2ZTxA7MnqCNunHV0G7h7SNDLw99rhu8x+EmaR3+llj2lk6Jfz2m06fEdEND4Q9p5SqvFOOH9KLkQxCzT39GbBE+CJQ1qwDXjitDGylP7GV4MwnoruN9Fc+4Q+nk4sAUEvYSEf9XzlpAvvjmMf+vm+cWsrGC1qcydBZAw4gbg5buI9JedyCI8Mm79Y5c9eJopk8P+eXsW1LsDeD9BS2UWhdX3Ubgbs0VD9uyBQ/vhfMRXehio+J8XacuYSeRLVkAqt/QL0QtGNZwkVP6pRKyINKq96rKYJiFYF0o82oltSYEs8Pf/GkCGu0W3pgdHC/LqiqGee3gElNrvvvPzyvPh+hFhmyEtea4fPhVtkHf5TsHeAdedSQKdj1dXFqp/t5ttV9ALX7UEiQ7qw7rL9Xoqkrc4uoa1jbLB+RXvxc7+QMswP6+KBG589jX7BMfd0WFaqe2GL9q0l5Lx5NN3kecj5a0SzcObz06zRbZYcx06gMUU0G9oGhFbG6na34hkLm7FDJQeFftnYlzPfJwiujVT6JxMMjDTlm1htO1f0LcnHAK0HloGpAhbNt7qvsRI+EdVxfqy4Olx12lm0b3UlAOJ1PMgNLcJYSdl2AB6NXaQ0HI0rQCcFsFSX661w39RMdn9aIdbbINvdxiBZ/99C8WZyosmySHjv4TqlVNbi3uS547U0XyhCBJHQVgkj8ahmlBL5Pl6xLh/BLElWKsPwU0Ue2Zdr7fA8doiD+OARO0oDhNdhqVEdc7o+xEWyYng/a5k+Lez1MSS4dbV4+GvXJTSY/5aA85jgjcblYVT6Edm/V9n94rrDlHM6LotWtzEPur0mG68LrYsNMeaI7n4TlPkIaeI3ZM4mabElfrHVx3CoAfDQOf0OZGnqZ8bAti9hN6d13HGSGebo2STKsNMiBi6WVt7oLQfpFNNl9O4ddEAMypxcuiV7Bu79Fud7oyNoYakYkWU1VjUH1KPakKrrXR+jwJVGTOs8MdvkRyAzY7LiW93sR0F8DCCdR42WzNyNx2q+98CT4LPvJnYTKD95ClAXzSZVIQQ57lyt7V9vb6xo5kfe7cIjWoggT3IBppymLtCbgrTk4w+N+VoPUfsfK2JlPkaaQMopVexO47Lx2fmdBYFbyal/jQQhnvsdoryzJ6eCp9IbxBn8WIhepRg3AQZH4mk/XaRHSXFErRDUcVhQ9QUZR8L3rjd+ias8m3OhJYUUwTq/s7EKBxX8ApJCOkuiK/fztwvOwNV/lIRTTGxx9+pBq/4NYSJCl8/8XOJIA5jHw3IuX9H5UNhkZM5ZMomRGnZqh1u+kOd3kToJkj++LqU19+7bTJlA8/CJhiTiPWuFCt1T7tgehlBDaXaHWiYXMQFemd5GuhQ==" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityName" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityName}}" RecordedValue="contact" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityID" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityID}}" RecordedValue="0ee0b8dd-c054-e711-80f4-3863bb3630a8" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityState" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityState}}" RecordedValue="0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityStatus" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView_EntityStatus}}" RecordedValue="1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$firstname" Value="SESIT D365 Admin" RecordedValue="SESIT D365 Admin" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$middlename" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$lastname" Value="Account" RecordedValue="Account" CorrelationBinding="{{FormPostParam8.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$lastname}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_preferreddisplayname" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_Value" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_Value}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_SelectedIndex" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$gendercode_SelectedIndex}}" RecordedValue="0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_dob" Value="1990-11-18T00:00:00.0000000" RecordedValue="1990-11-18T00:00:00.0000000" CorrelationBinding="{{FormPostParam9.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_dob}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_name" Value="India" RecordedValue="India" CorrelationBinding="{{FormPostParam10.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_name}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth}}" RecordedValue="a46660e4-7c96-e111-8e1a-002dd802fe4e" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_entityname" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofbirth_entityname}}" RecordedValue="mims_country" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_name" Value="India" RecordedValue="India" CorrelationBinding="{{FormPostParam11.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_name}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship}}" RecordedValue="a46660e4-7c96-e111-8e1a-002dd802fe4e" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_entityname" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_countryofcitizenship_entityname}}" RecordedValue="mims_country" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry_name" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry_entityname" Value="{{$HIDDEN1.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_presentcountry_entityname}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_stateus" Value="100000047" RecordedValue="100000047" CorrelationBinding="{{FormPostParam14.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mims_stateus}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$address2_line1" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$address2_line2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$address2_city" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress1" Value="sesd365@microsoft.com" RecordedValue="sesd365@microsoft.com" CorrelationBinding="{{FormPostParam12.ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress1}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$emailaddress2" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$mobilephone" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$ContentContainer$EntityFormControl_3059aab5b772e71180f83863bb3630a8$EntityFormControl_3059aab5b772e71180f83863bb3630a8_EntityFormView$telephone3" Value="22" RecordedValue="22" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
